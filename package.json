@@ -9,7 +9,8 @@
     "mini-ci": "nx format:write && nx affected -t typecheck && nx affected -t eslint:lint --max-warnings=0 && CI=true nx affected -t test",
     "reload-dm": "git submodule update --init",
     "update-dm": "git submodule update --remote",
-    "test": "nx run-many -t test"
+    "test": "nx run-many -t test",
+    "build-go": "nx run common-svgicons:build && nx run common-plugin:build && nx run frontend:build"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",

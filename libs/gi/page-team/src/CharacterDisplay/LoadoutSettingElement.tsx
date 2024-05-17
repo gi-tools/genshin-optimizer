@@ -122,9 +122,6 @@ function BuildManagementContent() {
           <Grid item xs={1}>
             <BuildEquipped active={loadoutDatum?.buildType === 'equipped'} />
           </Grid>
-          <Grid item xs={1}>
-            <AdResponsive dataAdSlot="5385429639" bgt="light" />
-          </Grid>
         </Grid>
 
         <Box sx={{ display: 'flex', gap: 2 }}>
