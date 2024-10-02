@@ -65,6 +65,11 @@ const allMisc = [
   'weakspotDMG_',
   'dmgRed_',
   'healInc',
+  'flatDmgByAtk_',
+  'flatDmgByHp_',
+  'flatDmgByDef_',
+  'flatDmgByEm_',
+  'flatDmgByEr_',
 ] as const
 const allBase = ['base_atk', 'base_hp', 'base_def'] as const
 
