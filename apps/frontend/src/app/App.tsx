@@ -126,21 +126,6 @@ function Content() {
       })}
     >
       <Header anchor="back-to-top-anchor" />
-      {/* Top banner ad */}
-      <Box m={1}>
-        {!!width && (
-          <AdWrapper
-            fullWidth
-            dataAdSlot="3477080462"
-            sx={{
-              height: 90,
-              minWidth: 300,
-              maxWidth: Math.min(1000, width - 20),
-              width: '100%',
-            }}
-          />
-        )}
-      </Box>
       {/* Main content */}
       <Box
         display="flex"
@@ -148,24 +133,6 @@ function Content() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        {/* left Rail ad */}
-        {/* Adding a padding of 60 ensures that there is at least 60px between ads (from top or bottom) */}
-        <Box sx={{ flexShrink: 1, position: 'sticky', top: 0, py: '60px' }}>
-          {!!width && adWidth >= 160 && (
-            <AdWrapper
-              dataAdSlot="2411728037"
-              sx={{
-                minWidth: 160,
-                maxWidth: Math.min(
-                  adWidth >= 160 && adWidth <= 320 ? adWidth : adWidth * 0.5,
-                  AD_RAIL_MAXWIDTH
-                ),
-                height: AD_RAIL_HEIGHT,
-                width: '100%',
-              }}
-            />
-          )}
-        </Box>
         {/* Content */}
         <Container
           maxWidth="xl"
@@ -196,42 +163,11 @@ function Content() {
             </Routes>
           </Suspense>
         </Container>
-        {/* right rail ad */}
-        {/* Adding a padding of 60 ensures that there is at least 60px between ads (from top or bottom) */}
-        <Box sx={{ flexShrink: 1, position: 'sticky', top: 0, py: '60px' }}>
-          {!!width && adWidth > 320 && (
-            <AdWrapper
-              dataAdSlot="2411728037"
-              sx={{
-                minWidth: 160,
-                maxWidth: Math.min(adWidth * 0.5, AD_RAIL_MAXWIDTH),
-                height: AD_RAIL_HEIGHT,
-                width: '100%',
-              }}
-            />
-          )}
-        </Box>
       </Box>
 
       {/* make sure footer is always at bottom */}
       <Box flexGrow={1} />
       <Snow />
-      {/* Footer Ad */}
-      <Box m={1}>
-        {width && (
-          <AdWrapper
-            fullWidth
-            dataAdSlot="2396256483"
-            sx={{
-              mx: 'auto',
-              height: 90,
-              minWidth: 300,
-              maxWidth: Math.min(1000, width - 20),
-              width: '100%',
-            }}
-          />
-        )}
-      </Box>
       <Footer />
     </Box>
   )

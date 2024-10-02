@@ -4,6 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "reset": "nx reset",
     "frontend": "nx serve frontend",
     "build-all": "nx run-many -t build",
     "mini-ci": "nx format:write && nx affected -t typecheck && nx affected -t eslint:lint --max-warnings=0 && CI=true nx affected -t test",
