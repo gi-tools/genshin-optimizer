@@ -103,6 +103,11 @@ const allMisc = [
   'weakspotDMG_',
   'dmgRed_',
   'healInc',
+  'flatDmgByAtk_',
+  'flatDmgByHp_',
+  'flatDmgByDef_',
+  'flatDmgByEm_',
+  'flatDmgByEr_',
 ] as const
 const allBase = ['base_atk', 'base_hp', 'base_def'] as const
 
@@ -444,6 +449,11 @@ const common: Data = {
       infoMut(
         sum(
           total.all_dmgInc,
+          prod(total.atk, total['flatDmgByAtk_']),
+          prod(total.hp, total['flatDmgByHp_']),
+          prod(total.def, total['flatDmgByDef_']),
+          prod(total.eleMas, total['flatDmgByEm_']),
+          prod(total.enerRech_, total['flatDmgByEr_'], 100),
           lookup(
             hit.ele,
             objKeyMap(allElements, (element) => total[`${element}_dmgInc`]),

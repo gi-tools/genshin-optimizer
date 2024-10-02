@@ -54,6 +54,11 @@ const baseMap = {
 
   heal_multi: 'Heal multiplier',
   healInc: 'Heal Increase',
+  flatDmgByAtk_: 'Flat Dmg By Atk',
+  flatDmgByHp_: 'Flat Dmg By Hp',
+  flatDmgByDef_: 'Flat Dmg By Def',
+  flatDmgByEm_: 'Flat Dmg By Em',
+  flatDmgByEr_: 'Flat Dmg By Er',
 
   // Reaction
   transformative_level_multi: 'Transformative Reaction Level Multiplier',
