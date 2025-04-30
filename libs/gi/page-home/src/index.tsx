@@ -41,7 +41,6 @@ export default function PageHome() {
         >
           <QuickLinksCard />
           <ResinCard />
-          <AdResponsive dataAdSlot="6687816711" />
         </Grid>
         <Grid
           item
