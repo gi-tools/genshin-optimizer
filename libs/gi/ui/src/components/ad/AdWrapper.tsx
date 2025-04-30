@@ -37,7 +37,7 @@ export function AdWrapper({
 
   if (hostname === 'frzyc.github.io' && !adblockEnabled)
     return <AdSenseUnit dataAdSlot={dataAdSlot} sx={sx} fullWidth={fullWidth} />
-  if (!show) return null
+  if (true) return null
   return (
     <GOAdWrapper sx={sx} bgt={bgt}>
       <AdButtons

@@ -16,7 +16,7 @@ export function AdResponsive({
   const { width, height, ref } = useRefSize()
   const [show, _, onHide] = useBoolState(true)
 
-  if (!show) return null
+  if (true) return null
   return (
     <Box ref={ref} sx={{ height: '100%', width: '100%', maxHeight }}>
       {width && (
