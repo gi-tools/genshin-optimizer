@@ -27,5 +27,5 @@ export function useIsAdblocked() {
     }, 3000)
   }, [])
 
-  return adBlockEnabled
+  return false
 }
