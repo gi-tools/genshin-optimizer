@@ -131,6 +131,12 @@ const allTransformative = [
 ] as const
 const allAmplifying = ['vaporize', 'melt'] as const
 const allAdditive = ['spread', 'aggravate'] as const
+const allScale = [
+  'scaleAtk_',
+  'scaleHp_',
+  'scaleDef_',
+  'scaleEm_',
+] as const
 const allMisc = [
   'stamina',
   'staminaDec_',
@@ -184,6 +190,7 @@ const allNonModStats = [
   'enemyDefRed_' as const,
   'enemyDefIgn_' as const,
   ...allMisc,
+  ...allScale,
   ...allBase,
 ] as const
 
@@ -341,6 +348,7 @@ const inputBase = {
 
     dmgBonus: read('add', { ...info('dmg_'), pivot }),
     dmgInc: read('add', info('dmgInc')),
+    scaleDmgInc: read('add', info('scaleDmgInc')),
     dmg: read(),
   },
 }
@@ -483,6 +491,15 @@ const common: Data = {
         unequal(hit.ele, 'physical', total.normalEle_dmg_)
       )
     ),
+    scaleDmgInc: infoMut(
+      sum(
+        prod(total.atk, total.scaleAtk_),
+        prod(total.hp, total.scaleHp_),
+        prod(total.def, total.scaleDef_),
+        prod(total.eleMas, total.scaleEm_),
+      ),
+      { ...info('scaleDmgInc'), pivot }
+    ),
     dmgInc: sum(
       infoMut(
         sum(
@@ -534,7 +551,7 @@ const common: Data = {
       naught
     ),
     dmg: prod(
-      sum(hit.base, hit.dmgInc),
+      sum(hit.base, hit.dmgInc, hit.scaleDmgInc),
       sum(one, hit.dmgBonus),
       lookup(
         hit.hitMode,

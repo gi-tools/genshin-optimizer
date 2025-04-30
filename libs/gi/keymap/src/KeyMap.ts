@@ -57,6 +57,13 @@ const baseMap = {
   heal_multi: 'Heal multiplier',
   healInc: 'Heal Increase',
 
+  // Scale
+  scaleDmgInc: 'Total DMG Increase [Scale]',
+  scaleAtk_: 'Scale Atk',
+  scaleHp_: 'Scale Hp',
+  scaleDef_: 'Scale Def',
+  scaleEm_: 'Scale EM',
+
   // Reaction
   transformative_level_multi: 'Transformative Reaction Level Multiplier',
   crystallize_level_multi_: 'Crystallize Reaction Level Multiplier',
