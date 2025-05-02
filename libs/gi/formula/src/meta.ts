@@ -2392,4 +2392,494 @@ export const formulas = {
       },
     },
   },
+  _Test_A_Bow: {
+    normal1: {
+      sheet: '_Test_A_Bow',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_A_Bow',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_A_Cat: {
+    normal1: {
+      sheet: '_Test_A_Cat',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_A_Cat',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_A_Cla: {
+    normal1: {
+      sheet: '_Test_A_Cla',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_A_Cla',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_A_Pol: {
+    normal1: {
+      sheet: '_Test_A_Pol',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_A_Pol',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_A_Swo: {
+    normal1: {
+      sheet: '_Test_A_Swo',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_A_Swo',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_C_Bow: {
+    normal1: {
+      sheet: '_Test_C_Bow',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_C_Bow',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_C_Cat: {
+    normal1: {
+      sheet: '_Test_C_Cat',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_C_Cat',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_C_Cla: {
+    normal1: {
+      sheet: '_Test_C_Cla',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_C_Cla',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_C_Pol: {
+    normal1: {
+      sheet: '_Test_C_Pol',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_C_Pol',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_C_Swo: {
+    normal1: {
+      sheet: '_Test_C_Swo',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_C_Swo',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_D_Bow: {
+    normal1: {
+      sheet: '_Test_D_Bow',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_D_Bow',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_D_Cat: {
+    normal1: {
+      sheet: '_Test_D_Cat',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_D_Cat',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_D_Cla: {
+    normal1: {
+      sheet: '_Test_D_Cla',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_D_Cla',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_D_Pol: {
+    normal1: {
+      sheet: '_Test_D_Pol',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_D_Pol',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_D_Swo: {
+    normal1: {
+      sheet: '_Test_D_Swo',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_D_Swo',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_E_Bow: {
+    normal1: {
+      sheet: '_Test_E_Bow',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_E_Bow',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_E_Cat: {
+    normal1: {
+      sheet: '_Test_E_Cat',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_E_Cat',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_E_Cla: {
+    normal1: {
+      sheet: '_Test_E_Cla',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_E_Cla',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_E_Pol: {
+    normal1: {
+      sheet: '_Test_E_Pol',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_E_Pol',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_E_Swo: {
+    normal1: {
+      sheet: '_Test_E_Swo',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_E_Swo',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_G_Bow: {
+    normal1: {
+      sheet: '_Test_G_Bow',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_G_Bow',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_G_Cat: {
+    normal1: {
+      sheet: '_Test_G_Cat',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_G_Cat',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_G_Cla: {
+    normal1: {
+      sheet: '_Test_G_Cla',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_G_Cla',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_G_Pol: {
+    normal1: {
+      sheet: '_Test_G_Pol',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_G_Pol',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_G_Swo: {
+    normal1: {
+      sheet: '_Test_G_Swo',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_G_Swo',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_H_Bow: {
+    normal1: {
+      sheet: '_Test_H_Bow',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_H_Bow',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_H_Cat: {
+    normal1: {
+      sheet: '_Test_H_Cat',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_H_Cat',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_H_Cla: {
+    normal1: {
+      sheet: '_Test_H_Cla',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_H_Cla',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_H_Pol: {
+    normal1: {
+      sheet: '_Test_H_Pol',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_H_Pol',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_H_Swo: {
+    normal1: {
+      sheet: '_Test_H_Swo',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_H_Swo',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_P_Bow: {
+    normal1: {
+      sheet: '_Test_P_Bow',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_P_Bow',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_P_Cat: {
+    normal1: {
+      sheet: '_Test_P_Cat',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_P_Cat',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_P_Cla: {
+    normal1: {
+      sheet: '_Test_P_Cla',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_P_Cla',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_P_Pol: {
+    normal1: {
+      sheet: '_Test_P_Pol',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_P_Pol',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
+  _Test_P_Swo: {
+    normal1: {
+      sheet: '_Test_P_Swo',
+      name: 'normal1',
+      tag: {
+        et: 'own',
+        qt: 'formula',
+        q: 'dmg',
+        sheet: '_Test_P_Swo',
+        move: 'normal',
+        name: 'normal1',
+      },
+    },
+  },
 } as const

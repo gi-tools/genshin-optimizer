@@ -1,4 +1,6 @@
+import { testerCharacterKeys } from '@genshin-optimizer/gi/consts'
 import type { TagMapNodeEntries } from '../util'
+import fn_TestRegister from './_Test'
 import Albedo from './Albedo'
 import Alhaitham from './Alhaitham'
 import Aloy from './Aloy'
@@ -104,6 +106,7 @@ import YunJin from './YunJin'
 import Zhongli from './Zhongli'
 
 const data: TagMapNodeEntries[] = [
+  ...testerCharacterKeys.map((k) => fn_TestRegister(k)),
   Albedo,
   Alhaitham,
   Aloy,

@@ -1,4 +1,39 @@
 // This is a generated index file.
+import _Test_A_Swo from './Test'
+import _Test_G_Swo from './Test'
+import _Test_E_Swo from './Test'
+import _Test_D_Swo from './Test'
+import _Test_H_Swo from './Test'
+import _Test_P_Swo from './Test'
+import _Test_C_Swo from './Test'
+import _Test_A_Cla from './Test'
+import _Test_G_Cla from './Test'
+import _Test_E_Cla from './Test'
+import _Test_D_Cla from './Test'
+import _Test_H_Cla from './Test'
+import _Test_P_Cla from './Test'
+import _Test_C_Cla from './Test'
+import _Test_A_Pol from './Test'
+import _Test_G_Pol from './Test'
+import _Test_E_Pol from './Test'
+import _Test_D_Pol from './Test'
+import _Test_H_Pol from './Test'
+import _Test_P_Pol from './Test'
+import _Test_C_Pol from './Test'
+import _Test_A_Cat from './Test'
+import _Test_G_Cat from './Test'
+import _Test_E_Cat from './Test'
+import _Test_D_Cat from './Test'
+import _Test_H_Cat from './Test'
+import _Test_P_Cat from './Test'
+import _Test_C_Cat from './Test'
+import _Test_A_Bow from './Test'
+import _Test_G_Bow from './Test'
+import _Test_E_Bow from './Test'
+import _Test_D_Bow from './Test'
+import _Test_H_Bow from './Test'
+import _Test_P_Bow from './Test'
+import _Test_C_Bow from './Test'
 import Albedo from './Albedo'
 import Alhaitham from './Alhaitham'
 import Aloy from './Aloy'
@@ -106,6 +141,41 @@ import YunJin from './YunJin'
 import Zhongli from './Zhongli'
 
 const data = {
+  _Test_A_Swo,
+  _Test_G_Swo,
+  _Test_E_Swo,
+  _Test_D_Swo,
+  _Test_H_Swo,
+  _Test_P_Swo,
+  _Test_C_Swo,
+  _Test_A_Cla,
+  _Test_G_Cla,
+  _Test_E_Cla,
+  _Test_D_Cla,
+  _Test_H_Cla,
+  _Test_P_Cla,
+  _Test_C_Cla,
+  _Test_A_Pol,
+  _Test_G_Pol,
+  _Test_E_Pol,
+  _Test_D_Pol,
+  _Test_H_Pol,
+  _Test_P_Pol,
+  _Test_C_Pol,
+  _Test_A_Cat,
+  _Test_G_Cat,
+  _Test_E_Cat,
+  _Test_D_Cat,
+  _Test_H_Cat,
+  _Test_P_Cat,
+  _Test_C_Cat,
+  _Test_A_Bow,
+  _Test_G_Bow,
+  _Test_E_Bow,
+  _Test_D_Bow,
+  _Test_H_Bow,
+  _Test_P_Bow,
+  _Test_C_Bow,
   Albedo,
   Alhaitham,
   Aloy,

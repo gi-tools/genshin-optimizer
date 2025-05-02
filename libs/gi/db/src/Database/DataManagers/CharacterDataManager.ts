@@ -6,6 +6,7 @@ import type {
   LocationCharacterKey,
   TravelerKey,
 } from '@genshin-optimizer/gi/consts'
+import { testerCharacterKeys } from '@genshin-optimizer/gi/consts'
 import {
   allArtifactSlotKeys,
   allCharacterKeys,
@@ -232,6 +233,7 @@ export class CharacterDataManager extends DataManager<
       })
 
       // Somnia shouldn't be removed on import.
+      testerCharacterKeys.forEach((k) => idsToRemove.delete(k))
       idsToRemove.delete('Somnia')
 
       const idtoRemoveArr = Array.from(idsToRemove)

@@ -3,6 +3,7 @@ import {
   transposeArray,
 } from '@genshin-optimizer/common/util'
 import type { NonTravelerCharacterKey } from '@genshin-optimizer/gi/consts'
+import { testerCharacterKeys } from '@genshin-optimizer/gi/consts'
 import type {
   AvatarSkillDepotExcelConfigData,
   CharacterId,
@@ -18,6 +19,7 @@ import {
   hakushinChars,
   proudSkillExcelConfigData,
 } from '@genshin-optimizer/gi/dm'
+import * as testData from './Test/skillParam.json'
 import * as somniaData from './Somnia/skillParam.json'
 
 type CharacterSkillParams = {
@@ -189,6 +191,9 @@ export default function characterSkillParam() {
         avatarSkillDepotExcelConfigData[skillDepotId]
       )
     }
+  })
+  testerCharacterKeys.forEach((key) => {
+    characterSkillParamDump[key] = Object.assign({}, testData) as CharacterSkillParams
   })
   characterSkillParamDump.Somnia = somniaData as CharacterSkillParams
 

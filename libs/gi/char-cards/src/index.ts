@@ -1,4 +1,39 @@
 import type { CharacterKey, GenderKey } from '@genshin-optimizer/gi/consts'
+import _Test_A_Swo from './Character_Test_Card.png'
+import _Test_G_Swo from './Character_Test_Card.png'
+import _Test_E_Swo from './Character_Test_Card.png'
+import _Test_D_Swo from './Character_Test_Card.png'
+import _Test_H_Swo from './Character_Test_Card.png'
+import _Test_P_Swo from './Character_Test_Card.png'
+import _Test_C_Swo from './Character_Test_Card.png'
+import _Test_A_Cla from './Character_Test_Card.png'
+import _Test_G_Cla from './Character_Test_Card.png'
+import _Test_E_Cla from './Character_Test_Card.png'
+import _Test_D_Cla from './Character_Test_Card.png'
+import _Test_H_Cla from './Character_Test_Card.png'
+import _Test_P_Cla from './Character_Test_Card.png'
+import _Test_C_Cla from './Character_Test_Card.png'
+import _Test_A_Pol from './Character_Test_Card.png'
+import _Test_G_Pol from './Character_Test_Card.png'
+import _Test_E_Pol from './Character_Test_Card.png'
+import _Test_D_Pol from './Character_Test_Card.png'
+import _Test_H_Pol from './Character_Test_Card.png'
+import _Test_P_Pol from './Character_Test_Card.png'
+import _Test_C_Pol from './Character_Test_Card.png'
+import _Test_A_Cat from './Character_Test_Card.png'
+import _Test_G_Cat from './Character_Test_Card.png'
+import _Test_E_Cat from './Character_Test_Card.png'
+import _Test_D_Cat from './Character_Test_Card.png'
+import _Test_H_Cat from './Character_Test_Card.png'
+import _Test_P_Cat from './Character_Test_Card.png'
+import _Test_C_Cat from './Character_Test_Card.png'
+import _Test_A_Bow from './Character_Test_Card.png'
+import _Test_G_Bow from './Character_Test_Card.png'
+import _Test_E_Bow from './Character_Test_Card.png'
+import _Test_D_Bow from './Character_Test_Card.png'
+import _Test_H_Bow from './Character_Test_Card.png'
+import _Test_P_Bow from './Character_Test_Card.png'
+import _Test_C_Bow from './Character_Test_Card.png'
 import Albedo from './Character_Albedo_Card.png'
 import Alhaitham from './Character_Alhaitham_Card.jpg'
 import Aloy from './Character_Aloy_Card.png'
@@ -100,6 +135,41 @@ import TravelerF from './Traveler_Female_Card.jpg'
 import TravelerM from './Traveler_Male_Card.jpg'
 
 const charCards = {
+  _Test_A_Swo,
+  _Test_G_Swo,
+  _Test_E_Swo,
+  _Test_D_Swo,
+  _Test_H_Swo,
+  _Test_P_Swo,
+  _Test_C_Swo,
+  _Test_A_Cla,
+  _Test_G_Cla,
+  _Test_E_Cla,
+  _Test_D_Cla,
+  _Test_H_Cla,
+  _Test_P_Cla,
+  _Test_C_Cla,
+  _Test_A_Pol,
+  _Test_G_Pol,
+  _Test_E_Pol,
+  _Test_D_Pol,
+  _Test_H_Pol,
+  _Test_P_Pol,
+  _Test_C_Pol,
+  _Test_A_Cat,
+  _Test_G_Cat,
+  _Test_E_Cat,
+  _Test_D_Cat,
+  _Test_H_Cat,
+  _Test_P_Cat,
+  _Test_C_Cat,
+  _Test_A_Bow,
+  _Test_G_Bow,
+  _Test_E_Bow,
+  _Test_D_Bow,
+  _Test_H_Bow,
+  _Test_P_Bow,
+  _Test_C_Bow,
   Albedo,
   Alhaitham,
   Aloy,

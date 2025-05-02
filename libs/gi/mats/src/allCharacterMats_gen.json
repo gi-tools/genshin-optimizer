@@ -61979,6 +61979,7706 @@
       }
     }
   },
+  "_Test_A_Swo": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_G_Swo": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_E_Swo": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_D_Swo": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_H_Swo": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_P_Swo": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_C_Swo": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_A_Cla": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_G_Cla": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_E_Cla": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_D_Cla": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_H_Cla": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_P_Cla": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_C_Cla": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_A_Pol": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_G_Pol": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_E_Pol": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_D_Pol": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_H_Pol": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_P_Pol": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_C_Pol": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_A_Cat": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_G_Cat": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_E_Cat": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_D_Cat": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_H_Cat": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_P_Cat": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_C_Cat": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_A_Bow": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_G_Bow": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_E_Bow": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_D_Bow": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_H_Bow": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_P_Bow": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
+  "_Test_C_Bow": {
+    "talents": {
+      "normal": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "skill": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      },
+      "burst": {
+        "1": {
+          "items": [],
+          "cost": 0
+        },
+        "2": {
+          "items": [],
+          "cost": 0
+        },
+        "3": {
+          "items": [],
+          "cost": 0
+        },
+        "4": {
+          "items": [],
+          "cost": 0
+        },
+        "5": {
+          "items": [],
+          "cost": 0
+        },
+        "6": {
+          "items": [],
+          "cost": 0
+        },
+        "7": {
+          "items": [],
+          "cost": 0
+        },
+        "8": {
+          "items": [],
+          "cost": 0
+        },
+        "9": {
+          "items": [],
+          "cost": 0
+        },
+        "10": {
+          "items": [],
+          "cost": 0
+        },
+        "11": {
+          "items": [],
+          "cost": 0
+        },
+        "12": {
+          "items": [],
+          "cost": 0
+        },
+        "13": {
+          "items": [],
+          "cost": 0
+        },
+        "14": {
+          "items": [],
+          "cost": 0
+        },
+        "15": {
+          "items": [],
+          "cost": 0
+        }
+      }
+    },
+    "ascension": {
+      "0": {
+        "cost": 0,
+        "items": []
+      },
+      "1": {
+        "cost": 0,
+        "items": []
+      },
+      "2": {
+        "cost": 0,
+        "items": []
+      },
+      "3": {
+        "cost": 0,
+        "items": []
+      },
+      "4": {
+        "cost": 0,
+        "items": []
+      },
+      "5": {
+        "cost": 0,
+        "items": []
+      },
+      "6": {
+        "cost": 0,
+        "items": []
+      }
+    }
+  },
   "Somnia": {
     "talents": {
       "normal": {

@@ -1,0 +1,65 @@
+{
+  "key": "_Test_C_Bow",
+  "ele": "cryo",
+  "weaponType": "bow",
+  "lvlCurves": [
+    {
+      "key": "hp",
+      "base": 0,
+      "curve": "GROW_CURVE_HP_S5"
+    },
+    {
+      "key": "atk",
+      "base": 0,
+      "curve": "GROW_CURVE_ATTACK_S5"
+    },
+    {
+      "key": "def",
+      "base": 0,
+      "curve": "GROW_CURVE_HP_S5"
+    }
+  ],
+  "birthday": {
+    "month": 1,
+    "day": 1
+  },
+  "rarity": 5,
+  "ascensionBonus": {
+    "hp": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "def": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "atk": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "eleMas": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

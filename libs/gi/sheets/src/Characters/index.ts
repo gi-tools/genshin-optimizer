@@ -1,11 +1,14 @@
 import type {
   CharacterKey,
   CharacterSheetKey,
+  ElementKey,
   GenderKey,
+  TesterCharacterKey,
   TravelerKey,
 } from '@genshin-optimizer/gi/consts'
-import { allTravelerKeys } from '@genshin-optimizer/gi/consts'
+import { allTravelerKeys, testerCharacterKeys, testerCharacterKeysMap } from '@genshin-optimizer/gi/consts'
 import type { CharacterSheet } from './CharacterSheet'
+import fn_GetTest from './Test'
 
 import Albedo from './Albedo'
 import Alhaitham from './Alhaitham'
@@ -117,7 +120,12 @@ import YumemizukiMizuki from './YumemizukiMizuki'
 import YunJin from './YunJin'
 import Zhongli from './Zhongli'
 
+const testerCharactors: Record<TesterCharacterKey, CharacterSheet> = {} as any
+testerCharacterKeys.map((key) => {
+  testerCharactors[key] = fn_GetTest(key, testerCharacterKeysMap[key].ele as ElementKey)
+})
 const characters: Record<CharacterSheetKey, CharacterSheet> = {
+  ...testerCharactors,
   Albedo,
   Alhaitham,
   Aloy,
@@ -228,6 +236,7 @@ const characters: Record<CharacterSheetKey, CharacterSheet> = {
   YunJin,
   Zhongli,
 } as const
+
 export function getCharSheet(charKey: CharacterKey, gender: GenderKey) {
   return characters[charKeyToCharSheetKey(charKey, gender)]
 }

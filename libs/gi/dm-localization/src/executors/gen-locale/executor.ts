@@ -13,6 +13,7 @@ import type {
   NonTravelerCharacterKey,
   WeaponKey,
 } from '@genshin-optimizer/gi/consts'
+import { testerCharacterKeys } from '@genshin-optimizer/gi/consts'
 import { allGenderKeys } from '@genshin-optimizer/gi/consts'
 import type { AvatarSkillDepotExcelConfigData } from '@genshin-optimizer/gi/dm'
 import {
@@ -453,6 +454,9 @@ export default async function runExecutor(_options: GenLocaleExecutorSchema) {
     })
 
     // Add the Somnia and QuantumCatalyst
+    testerCharacterKeys.forEach((key) => {
+      languageData[lang as Language].charNames[key] = key
+    })
     languageData[lang as Language].charNames['Somnia'] = 'Somnia'
     languageData[lang as Language].weaponNames['QuantumCatalyst'] =
       'Quantum Cat-alyst'

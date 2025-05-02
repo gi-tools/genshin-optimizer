@@ -1,0 +1,107 @@
+{
+  "name": "_Test (Hydro+Catalyst)",
+  "title": "_Test (Hydro+Catalyst)",
+  "description": "",
+  "constellationName": "Test Constellation",
+  "auto": {
+    "name": "Test NA",
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Normal Attack</strong>"
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>"
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>"
+      }
+    },
+    "skillParams": {
+      "0": "1-Hit DMG",
+      "1": "Charged Attack Stream DMG",
+      "2": "Charged Attack Stamina Cost",
+      "3": "Plunge DMG",
+      "4": "Low/High Plunge DMG"
+    }
+  },
+  "skill": {
+    "name": "Test E",
+    "description": {
+      "0": ""
+    },
+    "skillParams": {
+      "0": "Skill DMG",
+      "1": "Duration",
+      "2": "CD"
+    }
+  },
+  "burst": {
+    "name": "Test Q",
+    "description": {
+      "0": ""
+    },
+    "skillParams": {
+      "0": "Skill DMG",
+      "1": "Duration",
+      "2": "CD",
+      "3": "Energy Cost"
+    }
+  },
+  "passive1": {
+    "name": "Test P1",
+    "description": {
+      "0": ""
+    }
+  },
+  "passive2": {
+    "name": "Test P2",
+    "description": {
+      "0": ""
+    }
+  },
+  "passive3": {
+    "name": "Test P3",
+    "description": {
+      "0": ""
+    }
+  },
+  "constellation1": {
+    "name": "Test Constellation 1",
+    "description": {
+      "0": ""
+    }
+  },
+  "constellation2": {
+    "name": "Test Constellation 2",
+    "description": {
+      "0": ""
+    }
+  },
+  "constellation3": {
+    "name": "Test Constellation 3",
+    "description": {
+      "0": ""
+    }
+  },
+  "constellation4": {
+    "name": "Test Constellation 4",
+    "description": {
+      "0": ""
+    }
+  },
+  "constellation5": {
+    "name": "Test Constellation 5",
+    "description": {
+      "0": ""
+    }
+  },
+  "constellation6": {
+    "name": "Test Constellation 6",
+    "description": {
+      "0": ""
+    }
+  },
+  "infusion": {
+    "enter": "In the <strong>Infusion</strong> state"
+  }
+}

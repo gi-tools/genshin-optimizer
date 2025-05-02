@@ -5,6 +5,7 @@ import type {
   RegionKey,
   WeaponTypeKey,
 } from '@genshin-optimizer/gi/consts'
+import { testerCharacterKeys, testerCharacterKeysMap } from '@genshin-optimizer/gi/consts'
 import type { CharacterId, StatKey } from '@genshin-optimizer/gi/dm'
 import {
   QualityTypeMap,
@@ -21,6 +22,7 @@ import {
   regionMap,
   weaponMap,
 } from '@genshin-optimizer/gi/dm'
+import * as testData from './Test/data.json'
 import * as somniaData from './Somnia/data.json'
 
 export type CharacterGrowCurveKey =
@@ -103,6 +105,9 @@ export default function characterData() {
       return [locCharKey, result]
     })
   ) as CharacterDatas
+  testerCharacterKeys.forEach((key) => {
+    data[key] = Object.assign({}, testData, testerCharacterKeysMap[key]) as CharacterDataGen
+  })
   data.Somnia = somniaData as CharacterDataGen
 
   // Hakushin stats

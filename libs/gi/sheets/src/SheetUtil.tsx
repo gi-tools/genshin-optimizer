@@ -63,6 +63,7 @@ export function trans(
   key: CharTransKey | WeaponKey | ArtifactSetKey
 ): Translated {
   const nogen =
+    (typeKey === 'char' && key.startsWith('_Test')) ||
     (typeKey === 'char' && key === 'Somnia') ||
     (typeKey === 'weapon' && key === 'QuantumCatalyst')
   return [
