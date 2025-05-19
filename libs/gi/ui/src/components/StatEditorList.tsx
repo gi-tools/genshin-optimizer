@@ -291,6 +291,7 @@ const allGroupKeys = [
   'base_stat_mod',
   'stamina_buffs',
   'misc',
+  'scale',
 ] as const
 type GroupKey = (typeof allGroupKeys)[number]
 
@@ -423,6 +424,10 @@ const inputPremodKeyToGroupMap: Record<InputPremodKey, GroupKey> = {
   weakspotDMG_: 'misc',
   dmgRed_: 'misc',
   healInc: 'misc',
+  scaleAtk_: 'scale',
+  scaleHp_: 'scale',
+  scaleDef_: 'scale',
+  scaleEm_: 'scale',
   base_atk: 'base_stat_mod',
   base_hp: 'base_stat_mod',
   base_def: 'base_stat_mod',
