@@ -75,6 +75,7 @@ import Sethos from './Sethos'
 import Shenhe from './Shenhe'
 import ShikanoinHeizou from './ShikanoinHeizou'
 import Sigewinne from './Sigewinne'
+import SimTester from './SimTester'
 import Somnia from './Somnia'
 import Sucrose from './Sucrose'
 import Tartaglia from './Tartaglia'
@@ -184,6 +185,7 @@ const data = {
   Shenhe,
   ShikanoinHeizou,
   Sigewinne,
+  SimTester,
   Somnia,
   Sucrose,
   Tartaglia,
