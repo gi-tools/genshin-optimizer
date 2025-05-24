@@ -133,6 +133,7 @@ const allTransformative = [
 const allAmplifying = ['vaporize', 'melt'] as const
 const allAdditive = ['spread', 'aggravate'] as const
 const allScale = [
+  'dmgMultiplier_',
   'scaleAtk_',
   'scaleHp_',
   'scaleDef_',
@@ -348,8 +349,8 @@ const inputBase = {
     addTerm: read(undefined, { pivot }),
 
     dmgBonus: read('add', { ...info('dmg_'), pivot }),
-    dmgInc: read('add', info('dmgInc')),
     scaleDmgInc: read('add', info('scaleDmgInc')),
+    dmgInc: read('add', info('dmgInc')),
     dmg: read(),
   },
 }
@@ -552,7 +553,13 @@ const common: Data = {
       naught
     ),
     dmg: prod(
-      sum(hit.base, hit.dmgInc, hit.scaleDmgInc),
+      sum(
+        prod(
+          sum(hit.base, hit.scaleDmgInc),
+          total.dmgMultiplier_,
+        ),
+        hit.dmgInc
+      ),
       sum(one, hit.dmgBonus),
       lookup(
         hit.hitMode,

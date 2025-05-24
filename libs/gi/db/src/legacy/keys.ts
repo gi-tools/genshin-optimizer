@@ -52,6 +52,7 @@ const allTransformative = [
 const allAmplifying = ['vaporize', 'melt'] as const
 const allAdditive = ['spread', 'aggravate'] as const
 const allScale = [
+  'dmgMultiplier_',
   'scaleAtk_',
   'scaleHp_',
   'scaleDef_',

@@ -59,6 +59,7 @@ const baseMap = {
 
   // Scale
   scaleDmgInc: 'Total DMG Increase [Scale]',
+  dmgMultiplier_: 'DMG Multiplier',
   scaleAtk_: 'Scale Atk',
   scaleHp_: 'Scale Hp',
   scaleDef_: 'Scale Def',

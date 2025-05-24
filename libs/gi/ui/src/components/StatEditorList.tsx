@@ -424,6 +424,7 @@ const inputPremodKeyToGroupMap: Record<InputPremodKey, GroupKey> = {
   weakspotDMG_: 'misc',
   dmgRed_: 'misc',
   healInc: 'misc',
+  dmgMultiplier_: 'scale',
   scaleAtk_: 'scale',
   scaleHp_: 'scale',
   scaleDef_: 'scale',
