@@ -22,7 +22,9 @@ import {
   constant,
   equal,
   frac,
+  greaterEq,
   infoMut,
+  lessThan,
   lookup,
   max,
   min,
@@ -38,8 +40,10 @@ import {
   stringRead,
   subscript,
   sum,
+  threshold,
   unequal,
   unequalStr,
+  zero,
 } from './utils'
 
 const asConst = true as const,
@@ -139,6 +143,13 @@ const allTransformative = [
 ] as const
 const allAmplifying = ['vaporize', 'melt'] as const
 const allAdditive = ['spread', 'aggravate'] as const
+const allScale = [
+  'dmgMultiplier_',
+  'scaleAtk_',
+  'scaleHp_',
+  'scaleDef_',
+  'scaleEm_',
+] as const
 const allMisc = [
   'stamina',
   'staminaDec_',
@@ -196,6 +207,7 @@ const allNonModStats = [
   'enemyDefRed_' as const,
   'enemyDefIgn_' as const,
   ...allMisc,
+  ...allScale,
   ...allBase,
 ] as const
 
@@ -359,6 +371,8 @@ const inputBase = {
     addTerm: read(undefined, { pivot }),
 
     dmgBonus: read('add', { ...info('dmg_'), pivot }),
+    scaleDmgInc: read('add', info('scaleDmgInc')),
+    dmgMulti: read('add', info('dmgMultiplier_')),
     dmgInc: read('add', info('dmgInc')),
     dmg: read(),
   },
@@ -510,6 +524,19 @@ const common: Data = {
         unequal(hit.ele, 'physical', total.normalEle_dmg_)
       )
     ),
+    scaleDmgInc: infoMut(
+      sum(
+        prod(total.atk, total.scaleAtk_),
+        prod(total.hp, total.scaleHp_),
+        prod(total.def, total.scaleDef_),
+        prod(total.eleMas, total.scaleEm_),
+      ),
+      { ...info('scaleDmgInc'), pivot }
+    ),
+    dmgMulti: infoMut(
+      threshold(zero, total.dmgMultiplier_, one, total.dmgMultiplier_),
+      { ...info('dmgMultiplier_'), pivot }
+    ),
     dmgInc: sum(
       infoMut(
         sum(
@@ -561,7 +588,13 @@ const common: Data = {
       naught
     ),
     dmg: prod(
-      sum(hit.base, hit.dmgInc),
+      sum(
+        prod(
+          sum(hit.base, hit.scaleDmgInc),
+          hit.dmgMulti,
+        ),
+        hit.dmgInc
+      ),
       sum(one, hit.dmgBonus),
       lookup(
         hit.hitMode,
