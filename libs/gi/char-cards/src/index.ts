@@ -77,6 +77,7 @@ import Shenhe from './Character_Shenhe_Card.jpg'
 import ShikanoinHeizou from './Character_Shikanoin_Heizou_Card.png'
 import Sigewinne from './Character_Sigewinne_Card.jpg'
 import Skirk from './Character_Skirk_Card.jpg'
+import SimTester from './Character_SimTester_Card.png'
 import Somnia from './Character_Somnia_Card.png'
 import Sucrose from './Character_Sucrose_Card.jpg'
 import Tartaglia from './Character_Tartaglia_Card.png'
@@ -182,6 +183,7 @@ const charCards = {
   ShikanoinHeizou,
   Sigewinne,
   Skirk,
+  SimTester,
   Somnia,
   Sucrose,
   Tartaglia,
