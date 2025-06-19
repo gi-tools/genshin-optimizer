@@ -567,6 +567,7 @@ export type Database = {
         | 'Sethos'
         | 'Shenhe'
         | 'ShikanoinHeizou'
+        | 'SimTester'
         | 'Somnia'
         | 'Sucrose'
         | 'Tartaglia'

@@ -62,8 +62,8 @@ import {
 import ReactGA from 'react-ga4'
 import { useTranslation } from 'react-i18next'
 import { useMatch, useNavigate } from 'react-router-dom'
-const columns = { xs: 1, sm: 2, md: 3, lg: 4, xl: 4 }
-const numToShowMap = { xs: 5, sm: 8, md: 9, lg: 12, xl: 12 }
+const columns = { xs: 1, sm: 2, md: 3, lg: 4, xl: 5 }
+const numToShowMap = { xs: 5, sm: 10, md: 15, lg: 20, xl: 25 }
 const sortKeys = Object.keys(characterSortMap)
 
 export default function PageCharacter() {

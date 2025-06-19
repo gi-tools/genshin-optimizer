@@ -248,6 +248,7 @@ const runExecutor: PromiseExecutor<GenAssetsDataExecutorSchema> = async (
   }
 
   // Add in manually added assets that can't be datamined
+  assetData.chars['SimTester'] = {} as CharacterIcon
   assetData.chars['Somnia'] = {} as CharacterIcon
   assetData.weapons['QuantumCatalyst'] = {} as {
     icon: string

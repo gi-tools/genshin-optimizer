@@ -40,6 +40,7 @@ function GOLootbarAd({ children }: { children: ReactNode }) {
   )
 }
 export function getGOLootbarAd(dims: AdDims) {
+  return
   if ((dims.height ?? 120) <= 120) return GOLootbarAd
   return
 }

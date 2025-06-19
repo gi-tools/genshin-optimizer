@@ -17,6 +17,7 @@ import {
   proudSkillExcelConfigData,
 } from '@genshin-optimizer/gi/dm'
 import type { UpgradeCost } from '.'
+import * as simTesterData from './SimTester/data.json'
 import * as somniaData from './Somnia/data.json'
 
 export type CharacterMatDataGen = {
@@ -161,6 +162,7 @@ export default function characterMatData(): CharacterMatDatas {
     }
   })
 
+  data.SimTester = simTesterData as CharacterMatDataGen
   data.Somnia = somniaData as CharacterMatDataGen
 
   return data as CharacterMatDatas

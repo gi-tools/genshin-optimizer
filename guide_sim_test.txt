@@ -1,0 +1,2 @@
+libs/gi/sheets/src/Characters/SimTester/index.tsx
+libs/gi/stats/src/executors/gen-stats/src/SimTester/data.json

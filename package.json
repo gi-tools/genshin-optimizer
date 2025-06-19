@@ -4,6 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "reset": "nx reset",
     "frontend": "nx serve frontend",
     "somnia": "nx serve somnia",
     "build-all": "nx run-many -t build",
