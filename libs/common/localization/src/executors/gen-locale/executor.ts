@@ -25,11 +25,7 @@ export default async function runExecutor(_options: GenLocaleExecutorSchema) {
       const raw = readFileSync(transDirPath + file).toString()
       const json = JSON.parse(raw)
       Object.entries(json).map(([ns, entry]) => {
-        if (ns.startsWith('zzz_')) {
-          dumpFile(`${localeDir('zzz')}${lang}/${ns.slice(3)}.json`, entry)
-        } else if (ns.startsWith('sr_')) {
-          dumpFile(`${localeDir('sr')}${lang}/${ns.slice(3)}.json`, entry)
-        } else if (ns.startsWith('common_')) {
+        if (ns.startsWith('common_')) {
           dumpFile(`${localeDir('common')}${lang}/${ns.slice(7)}.json`, entry)
         } else {
           //dump to gi by default, due to legacy namespacing
