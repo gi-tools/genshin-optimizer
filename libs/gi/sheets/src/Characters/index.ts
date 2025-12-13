@@ -93,6 +93,7 @@ import Shenhe from './Shenhe'
 import ShikanoinHeizou from './ShikanoinHeizou'
 import Sigewinne from './Sigewinne'
 import Skirk from './Skirk'
+import SimTester from './SimTester'
 import Somnia from './Somnia'
 import Sucrose from './Sucrose'
 import Tartaglia from './Tartaglia'
@@ -216,6 +217,7 @@ const characters: Record<CharacterSheetKey, CharacterSheet> = {
   ShikanoinHeizou,
   Sigewinne,
   Skirk,
+  SimTester,
   Somnia,
   Sucrose,
   Tartaglia,

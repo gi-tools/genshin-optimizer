@@ -207,6 +207,7 @@ export class CharacterDataManager extends DataManager<
       })
 
       // Somnia shouldn't be removed on import.
+      idsToRemove.delete('SimTester')
       idsToRemove.delete('Somnia')
 
       const idtoRemoveArr = Array.from(idsToRemove)

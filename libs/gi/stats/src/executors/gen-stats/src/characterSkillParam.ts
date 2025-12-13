@@ -22,6 +22,7 @@ import {
   hakushinChars,
   proudSkillExcelConfigData,
 } from '@genshin-optimizer/gi/dm'
+import * as simTesterData from './SimTester/skillParam.json'
 import * as somniaData from './Somnia/skillParam.json'
 
 type CharacterSkillParams = {
@@ -229,6 +230,7 @@ export default function characterSkillParam() {
       )
     }
   })
+  characterSkillParamDump.SimTester = simTesterData as CharacterSkillParams
   characterSkillParamDump.Somnia = somniaData as CharacterSkillParams
 
   // Hakushin stats

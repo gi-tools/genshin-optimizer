@@ -523,6 +523,7 @@ export default async function runExecutor(_options: GenLocaleExecutorSchema) {
     })
 
     // Add the Somnia and QuantumCatalyst
+    languageData[lang as Language].charNames['SimTester'] = 'SimTester'
     languageData[lang as Language].charNames['Somnia'] = 'Somnia'
     languageData[lang as Language].weaponNames['QuantumCatalyst'] =
       'Quantum Cat-alyst'

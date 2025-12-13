@@ -39,6 +39,7 @@ function ZOLootbarAd({ children }: { children: ReactNode }) {
   )
 }
 export function getZOLootbarAd(dims: AdDims) {
+  return
   if ((dims.height ?? 120) <= 120) return ZOLootbarAd
   return
 }

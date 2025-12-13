@@ -22,6 +22,7 @@ import {
   regionMap,
   weaponMap,
 } from '@genshin-optimizer/gi/dm'
+import * as simTesterData from './SimTester/data.json'
 import * as somniaData from './Somnia/data.json'
 
 export type CharacterGrowCurveKey =
@@ -111,6 +112,7 @@ export default function characterData() {
       return [locCharKey, result]
     })
   ) as CharacterDatas
+  data.SimTester = simTesterData as CharacterDataGen
   data.Somnia = somniaData as CharacterDataGen
 
   // Hakushin stats

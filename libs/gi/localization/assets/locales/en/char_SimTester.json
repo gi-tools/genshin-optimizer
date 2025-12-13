@@ -1,0 +1,92 @@
+{
+  "name": "SimTester",
+  "title": "Simulator",
+  "description": "",
+  "constellationName": "Constellation",
+  "auto": {
+    "name": "NA",
+    "description": {
+    },
+    "fields": {
+      "normal": {
+        "0": "<strong><strong>Normal Attack</strong>"
+      },
+      "charged": {
+        "0": "<strong>Charged Attack</strong>"
+      },
+      "plunging": {
+        "0": "<strong>Plunging Attack</strong>"
+      }
+    },
+    "skillParams": {
+      "0": "1-Hit DMG",
+      "1": "Charged Attack DMG",
+      "2": "Charged Attack Stamina Cost"
+    }
+  },
+  "skill": {
+    "name": "E",
+    "description": {
+    },
+    "skillParams": {
+      "0": "Skill DMG"
+    }
+  },
+  "burst": {
+    "name": "Q",
+    "description": {
+    },
+    "skillParams": {
+      "0": "Skill DMG"
+    }
+  },
+  "passive1": {
+    "name": "P1",
+    "description": {
+    }
+  },
+  "passive2": {
+    "name": "P2",
+    "description": {
+    }
+  },
+  "passive3": {
+    "name": "P3",
+    "description": {
+    }
+  },
+  "constellation1": {
+    "name": "C1",
+    "description": {
+    }
+  },
+  "constellation2": {
+    "name": "C2",
+    "description": {
+    }
+  },
+  "constellation3": {
+    "name": "C3",
+    "description": {
+    }
+  },
+  "constellation4": {
+    "name": "C4",
+    "description": {
+    }
+  },
+  "constellation5": {
+    "name": "C5",
+    "description": {
+    }
+  },
+  "constellation6": {
+    "name": "C6",
+    "description": {
+    }
+  },
+  "infusion": {
+    "enter": "In the <strong>Infusion</strong> state",
+    "end": "After the <strong>Infusion</strong> state ends"
+  }
+}

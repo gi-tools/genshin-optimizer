@@ -103,6 +103,13 @@ export const allTransformative = [
 ] as const
 export const allAmplifying = ['vaporize', 'melt'] as const
 export const allAdditive = ['spread', 'aggravate'] as const
+export const allScale = [
+  'dmgMultiplier_',
+  'scaleAtk_',
+  'scaleHp_',
+  'scaleDef_',
+  'scaleEm_',
+] as const
 export const allMisc = [
   'stamina',
   'staminaDec_',
@@ -161,6 +168,7 @@ export const allNonModStats = [
   'enemyDefRed_' as const,
   'enemyDefIgn_' as const,
   ...allMisc,
+  ...allScale,
   ...allBase,
 ] as const
 

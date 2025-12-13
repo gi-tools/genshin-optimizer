@@ -7,8 +7,8 @@ const googleAdsURL =
  * and checking for content within #adsbygoogle class
  */
 export function useIsAdblocked() {
+  /*
   const [adBlockEnabled, setAdBlockEnabled] = useState(false)
-
   useEffect(() => {
     const fetchUrl = async () => {
       try {
@@ -26,6 +26,6 @@ export function useIsAdblocked() {
       if (allEmpty) setAdBlockEnabled(true)
     }, 3000)
   }, [])
-
-  return adBlockEnabled
+  */
+  return false
 }
