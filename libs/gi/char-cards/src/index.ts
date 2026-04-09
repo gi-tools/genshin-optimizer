@@ -95,6 +95,41 @@ import ShikanoinHeizou from './Character_Shikanoin_Heizou_Card.png'
 import Sigewinne from './Character_Sigewinne_Card.jpg'
 import Skirk from './Character_Skirk_Card.jpg'
 import Somnia from './Character_Somnia_Card.png'
+import Sim_AnemoBow from './_Character_Sim_AnemoBow_Card.jpg'
+import Sim_AnemoCatalyst from './_Character_Sim_AnemoCatalyst_Card.jpg'
+import Sim_AnemoClaymore from './_Character_Sim_AnemoClaymore_Card.jpg'
+import Sim_AnemoPolearm from './_Character_Sim_AnemoPolearm_Card.jpg'
+import Sim_AnemoSword from './_Character_Sim_AnemoSword_Card.jpg'
+import Sim_CryoBow from './_Character_Sim_CryoBow_Card.jpg'
+import Sim_CryoCatalyst from './_Character_Sim_CryoCatalyst_Card.jpg'
+import Sim_CryoClaymore from './_Character_Sim_CryoClaymore_Card.jpg'
+import Sim_CryoPolearm from './_Character_Sim_CryoPolearm_Card.jpg'
+import Sim_CryoSword from './_Character_Sim_CryoSword_Card.jpg'
+import Sim_DendroBow from './_Character_Sim_DendroBow_Card.jpg'
+import Sim_DendroCatalyst from './_Character_Sim_DendroCatalyst_Card.jpg'
+import Sim_DendroClaymore from './_Character_Sim_DendroClaymore_Card.jpg'
+import Sim_DendroPolearm from './_Character_Sim_DendroPolearm_Card.jpg'
+import Sim_DendroSword from './_Character_Sim_DendroSword_Card.jpg'
+import Sim_ElectroBow from './_Character_Sim_ElectroBow_Card.jpg'
+import Sim_ElectroCatalyst from './_Character_Sim_ElectroCatalyst_Card.jpg'
+import Sim_ElectroClaymore from './_Character_Sim_ElectroClaymore_Card.jpg'
+import Sim_ElectroPolearm from './_Character_Sim_ElectroPolearm_Card.jpg'
+import Sim_ElectroSword from './_Character_Sim_ElectroSword_Card.jpg'
+import Sim_GeoBow from './_Character_Sim_GeoBow_Card.jpg'
+import Sim_GeoCatalyst from './_Character_Sim_GeoCatalyst_Card.jpg'
+import Sim_GeoClaymore from './_Character_Sim_GeoClaymore_Card.jpg'
+import Sim_GeoPolearm from './_Character_Sim_GeoPolearm_Card.jpg'
+import Sim_GeoSword from './_Character_Sim_GeoSword_Card.jpg'
+import Sim_HydroBow from './_Character_Sim_HydroBow_Card.jpg'
+import Sim_HydroCatalyst from './_Character_Sim_HydroCatalyst_Card.jpg'
+import Sim_HydroClaymore from './_Character_Sim_HydroClaymore_Card.jpg'
+import Sim_HydroPolearm from './_Character_Sim_HydroPolearm_Card.jpg'
+import Sim_HydroSword from './_Character_Sim_HydroSword_Card.jpg'
+import Sim_PyroBow from './_Character_Sim_PyroBow_Card.jpg'
+import Sim_PyroCatalyst from './_Character_Sim_PyroCatalyst_Card.jpg'
+import Sim_PyroClaymore from './_Character_Sim_PyroClaymore_Card.jpg'
+import Sim_PyroPolearm from './_Character_Sim_PyroPolearm_Card.jpg'
+import Sim_PyroSword from './_Character_Sim_PyroSword_Card.jpg'
 import Sucrose from './Character_Sucrose_Card.jpg'
 import Tartaglia from './Character_Tartaglia_Card.png'
 import Thoma from './Character_Thoma_Card.jpg'
@@ -217,6 +252,41 @@ const charCards = {
   Sigewinne,
   Skirk,
   Somnia,
+  Sim_AnemoBow,
+  Sim_AnemoCatalyst,
+  Sim_AnemoClaymore,
+  Sim_AnemoPolearm,
+  Sim_AnemoSword,
+  Sim_CryoBow,
+  Sim_CryoCatalyst,
+  Sim_CryoClaymore,
+  Sim_CryoPolearm,
+  Sim_CryoSword,
+  Sim_DendroBow,
+  Sim_DendroCatalyst,
+  Sim_DendroClaymore,
+  Sim_DendroPolearm,
+  Sim_DendroSword,
+  Sim_ElectroBow,
+  Sim_ElectroCatalyst,
+  Sim_ElectroClaymore,
+  Sim_ElectroPolearm,
+  Sim_ElectroSword,
+  Sim_GeoBow,
+  Sim_GeoCatalyst,
+  Sim_GeoClaymore,
+  Sim_GeoPolearm,
+  Sim_GeoSword,
+  Sim_HydroBow,
+  Sim_HydroCatalyst,
+  Sim_HydroClaymore,
+  Sim_HydroPolearm,
+  Sim_HydroSword,
+  Sim_PyroBow,
+  Sim_PyroCatalyst,
+  Sim_PyroClaymore,
+  Sim_PyroPolearm,
+  Sim_PyroSword,
   Sucrose,
   Tartaglia,
   Thoma,
@@ -256,6 +326,6 @@ export function charCard(charKey: CharacterKey, gender: GenderKey) {
     case 'TravelerCryo':
       return charCards[`Traveler${gender}`]
     default:
-      return charCards[charKey]
+      return charCards[charKey as keyof typeof charCards]
   }
 }

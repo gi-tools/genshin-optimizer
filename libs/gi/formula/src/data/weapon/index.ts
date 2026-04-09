@@ -151,6 +151,7 @@ import PrototypeCrescent from './PrototypeCrescent'
 import PrototypeRancour from './PrototypeRancour'
 import PrototypeStarglitter from './PrototypeStarglitter'
 import QuantumCatalyst from './QuantumCatalyst'
+import { generateSim } from './_generateSim'
 import RainbowSerpentsRainBow from './RainbowSerpentsRainBow'
 import Rainslasher from './Rainslasher'
 import RangeGauge from './RangeGauge'
@@ -476,6 +477,11 @@ const data: TagMapNodeEntries[] = [
   PocketGrimoire,
   PrototypeAmber,
   QuantumCatalyst,
+  generateSim('SimBow'),
+  generateSim('SimCatalyst'),
+  generateSim('SimClaymore'),
+  generateSim('SimPolearm'),
+  generateSim('SimSword'),
   ReliquaryOfTruth,
   RingOfYaxche,
   RoyalGrimoire,

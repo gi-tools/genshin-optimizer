@@ -67,6 +67,7 @@ export const allWeaponSwordKeys = [
   'WhitelakeFrostfeather',
   'WolfFang',
   'XiphosMoonlight',
+  'SimSword',
 ] as const
 export type WeaponSwordKey = (typeof allWeaponSwordKeys)[number]
 
@@ -116,6 +117,7 @@ export const allWeaponClaymoreKeys = [
   'Whiteblind',
   'WhiteIronGreatsword',
   'WolfsGravestone',
+  'SimClaymore',
 ] as const
 export type WeaponClaymoreKey = (typeof allWeaponClaymoreKeys)[number]
 
@@ -163,6 +165,7 @@ export const allWeaponPolearmKeys = [
   'VortexVanquisher',
   'WavebreakersFin',
   'WhiteTassel',
+  'SimPolearm',
 ] as const
 export type WeaponPoleArmKey = (typeof allWeaponPolearmKeys)[number]
 
@@ -216,6 +219,7 @@ export const allWeaponBowKeys = [
   'TheViridescentHunt',
   'ThunderingPulse',
   'WindblumeOde',
+  'SimBow',
 ] as const
 export type WeaponBowKey = (typeof allWeaponBowKeys)[number]
 
@@ -274,6 +278,7 @@ export const allWeaponCatalystKeys = [
   'WanderingEvenstar',
   'WaveridingWhirl',
   'WineAndSong',
+  'SimCatalyst',
 ] as const
 export type WeaponCatalystKey = (typeof allWeaponCatalystKeys)[number]
 

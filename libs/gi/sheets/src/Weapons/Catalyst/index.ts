@@ -54,8 +54,9 @@ import VividNotions from './VividNotions'
 import WanderingEvenstar from './WanderingEvenstar'
 import WaveridingWhirl from './WaveridingWhirl'
 import WineAndSong from './WineAndSong'
-
+import { generateSim } from '../_generateSim'
 const catalyst: Record<WeaponCatalystKey, WeaponSheet> = {
+  SimCatalyst: generateSim('SimCatalyst'),
   AThousandFloatingDreams,
   AngelosHeptades,
   ApprenticesNotes,

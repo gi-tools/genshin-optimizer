@@ -5,6 +5,12 @@ import type {
   NonTravelerCharacterKey,
   RegionKey,
   WeaponTypeKey,
+  SimCharacterKey,
+} from '@genshin-optimizer/gi/consts'
+import {
+  allElementKeys,
+  allWeaponTypeKeys,
+  simCharacterKeys
 } from '@genshin-optimizer/gi/consts'
 import type { CharacterId, StatKey } from '@genshin-optimizer/gi/dm'
 import {
@@ -23,6 +29,7 @@ import {
   weaponMap,
 } from '@genshin-optimizer/gi/dm'
 import * as somniaData from './Somnia/data.json'
+import * as generateSimData from './_generateSim/data.json'
 
 export type CharacterGrowCurveKey =
   | 'GROW_CURVE_HP_S4'
@@ -112,6 +119,26 @@ export default function characterData() {
     })
   ) as CharacterDatas
   data.Somnia = somniaData as CharacterDataGen
+
+  function getElementKey(key: SimCharacterKey): ElementKey {
+    const element = allElementKeys.find(typ => key.toLowerCase().includes(typ))!
+    if (element) return element.toLowerCase() as ElementKey
+    throw new Error(`Unknown element key: ${key}`)
+  }
+
+  function getWeaponTypeKey(key: SimCharacterKey): WeaponTypeKey {
+    const weaponType = allWeaponTypeKeys.find(typ => key.toLowerCase().includes(typ))!
+    if (weaponType) return weaponType.toLowerCase() as WeaponTypeKey
+    throw new Error(`Unknown weapon type key: ${key}`)
+  }
+
+  simCharacterKeys.forEach((key) => {
+    data[key] = Object.assign({}, generateSimData, {
+      key: key,
+      ele: getElementKey(key),
+      weaponType: getWeaponTypeKey(key),
+    }) as CharacterDataGen
+  })
 
   // Hakushin stats
   for (const key of hakushinChars) {

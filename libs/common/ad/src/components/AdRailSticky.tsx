@@ -16,6 +16,7 @@ export function AdRailSticky({
   Ad: FunctionComponent<AdProps>
   isRightRail?: boolean
 }) {
+  return null
   if (adWidth < MIN_RAIL_WIDTH) return null
   if (isRightRail && adWidth < MIN_RAIL_WIDTH * 2) return null
   const hasBothRails = adWidth >= MIN_RAIL_WIDTH * 2

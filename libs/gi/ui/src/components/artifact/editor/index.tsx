@@ -100,7 +100,7 @@ const InputInvis = styled('input')({
   display: 'none',
 })
 
-const LineBreak = styled('br')()
+const LineBreak = styled('br')({})
 
 function getDefaultSlotKey(
   artifactSet?: ArtifactSetKey

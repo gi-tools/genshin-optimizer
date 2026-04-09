@@ -70,6 +70,7 @@
     "talent_crit": "Talent CRIT Bonuses",
     "talent_level_boost": "Talent Level Boosts",
     "base_stat_mod": "Base Stat Modifications",
+    "scale": "Scale Modifications",
     "stamina_buffs": "Stamina Buffs",
     "misc": "Misc. Stats"
   },

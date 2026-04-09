@@ -94,6 +94,7 @@ import ShikanoinHeizou from './ShikanoinHeizou'
 import Sigewinne from './Sigewinne'
 import Skirk from './Skirk'
 import Somnia from './Somnia'
+import { generateSim } from './_generateSim'
 import Sucrose from './Sucrose'
 import Tartaglia from './Tartaglia'
 import Thoma from './Thoma'
@@ -125,6 +126,7 @@ import YumemizukiMizuki from './YumemizukiMizuki'
 import YunJin from './YunJin'
 import Zhongli from './Zhongli'
 import Zibai from './Zibai'
+import { simCharacterKeys } from '@genshin-optimizer/gi/consts'
 
 const data: TagMapNodeEntries[] = [
   Aino,
@@ -222,6 +224,7 @@ const data: TagMapNodeEntries[] = [
   Sigewinne,
   Skirk,
   Somnia,
+  ...simCharacterKeys.map((key) => generateSim(key)),
   Sucrose,
   Tartaglia,
   Thoma,

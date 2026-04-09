@@ -37,8 +37,14 @@ export function trans(
   key: CharTransKey | WeaponKey | ArtifactSetKey
 ): Translated {
   const nogen =
+    (typeKey === 'char' && key.startsWith('Sim_')) ||
     (typeKey === 'char' && key === 'Somnia') ||
-    (typeKey === 'weapon' && key === 'QuantumCatalyst')
+    (typeKey === 'weapon' && key === 'QuantumCatalyst') ||
+    (typeKey === 'weapon' && key === 'SimBow') ||
+    (typeKey === 'weapon' && key === 'SimCatalyst') ||
+    (typeKey === 'weapon' && key === 'SimClaymore') ||
+    (typeKey === 'weapon' && key === 'SimPolearm') ||
+    (typeKey === 'weapon' && key === 'SimSword')
   return [
     (strKey: string) => (
       <Translate

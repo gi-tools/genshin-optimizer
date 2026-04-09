@@ -101,6 +101,7 @@ import ShikanoinHeizou from './ShikanoinHeizou'
 import Sigewinne from './Sigewinne'
 import Skirk from './Skirk'
 import Somnia from './Somnia'
+import { generateSim } from './_generateSim'
 import Sucrose from './Sucrose'
 import Tartaglia from './Tartaglia'
 import Thoma from './Thoma'
@@ -276,6 +277,8 @@ const characters: Record<CharacterSheetKey, CharacterSheet> = {
   Zibai,
 } as const
 export function getCharSheet(charKey: CharacterKey, gender: GenderKey) {
+  if (charKey.startsWith('Sim_'))
+    return generateSim(charKey);
   return characters[charKeyToCharSheetKey(charKey, gender)]
 }
 

@@ -45,8 +45,9 @@ import WasterGreatsword from './WasterGreatsword'
 import Whiteblind from './Whiteblind'
 import WhiteIronGreatsword from './WhiteIronGreatsword'
 import WolfsGravestone from './WolfsGravestone'
-
+import { generateSim } from '../_generateSim'
 const claymore: Record<WeaponClaymoreKey, WeaponSheet> = {
+  SimClaymore: generateSim('SimClaymore'),
   Akuoumaru,
   ATeaspoonOfTranscendence,
   AThousandBlazingSuns,

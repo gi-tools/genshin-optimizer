@@ -17,6 +17,7 @@ export function AdResponsive({
   maxHeight?: number
   Ad: FunctionComponent<AdProps>
 }) {
+  return null
   const { width, height, ref } = useRefSize()
   const [show, _, onHide] = useBoolState(true)
 

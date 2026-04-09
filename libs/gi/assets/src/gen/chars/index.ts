@@ -92,6 +92,41 @@ import Sethos from './Sethos'
 import Shenhe from './Shenhe'
 import ShikanoinHeizou from './ShikanoinHeizou'
 import Sigewinne from './Sigewinne'
+import Sim_AnemoBow from './Sim_AnemoBow'
+import Sim_AnemoCatalyst from './Sim_AnemoCatalyst'
+import Sim_AnemoClaymore from './Sim_AnemoClaymore'
+import Sim_AnemoPolearm from './Sim_AnemoPolearm'
+import Sim_AnemoSword from './Sim_AnemoSword'
+import Sim_CryoBow from './Sim_CryoBow'
+import Sim_CryoCatalyst from './Sim_CryoCatalyst'
+import Sim_CryoClaymore from './Sim_CryoClaymore'
+import Sim_CryoPolearm from './Sim_CryoPolearm'
+import Sim_CryoSword from './Sim_CryoSword'
+import Sim_DendroBow from './Sim_DendroBow'
+import Sim_DendroCatalyst from './Sim_DendroCatalyst'
+import Sim_DendroClaymore from './Sim_DendroClaymore'
+import Sim_DendroPolearm from './Sim_DendroPolearm'
+import Sim_DendroSword from './Sim_DendroSword'
+import Sim_ElectroBow from './Sim_ElectroBow'
+import Sim_ElectroCatalyst from './Sim_ElectroCatalyst'
+import Sim_ElectroClaymore from './Sim_ElectroClaymore'
+import Sim_ElectroPolearm from './Sim_ElectroPolearm'
+import Sim_ElectroSword from './Sim_ElectroSword'
+import Sim_GeoBow from './Sim_GeoBow'
+import Sim_GeoCatalyst from './Sim_GeoCatalyst'
+import Sim_GeoClaymore from './Sim_GeoClaymore'
+import Sim_GeoPolearm from './Sim_GeoPolearm'
+import Sim_GeoSword from './Sim_GeoSword'
+import Sim_HydroBow from './Sim_HydroBow'
+import Sim_HydroCatalyst from './Sim_HydroCatalyst'
+import Sim_HydroClaymore from './Sim_HydroClaymore'
+import Sim_HydroPolearm from './Sim_HydroPolearm'
+import Sim_HydroSword from './Sim_HydroSword'
+import Sim_PyroBow from './Sim_PyroBow'
+import Sim_PyroCatalyst from './Sim_PyroCatalyst'
+import Sim_PyroClaymore from './Sim_PyroClaymore'
+import Sim_PyroPolearm from './Sim_PyroPolearm'
+import Sim_PyroSword from './Sim_PyroSword'
 import Skirk from './Skirk'
 import Somnia from './Somnia'
 import Sucrose from './Sucrose'
@@ -222,6 +257,41 @@ const data = {
   Shenhe,
   ShikanoinHeizou,
   Sigewinne,
+  Sim_AnemoBow,
+  Sim_AnemoCatalyst,
+  Sim_AnemoClaymore,
+  Sim_AnemoPolearm,
+  Sim_AnemoSword,
+  Sim_CryoBow,
+  Sim_CryoCatalyst,
+  Sim_CryoClaymore,
+  Sim_CryoPolearm,
+  Sim_CryoSword,
+  Sim_DendroBow,
+  Sim_DendroCatalyst,
+  Sim_DendroClaymore,
+  Sim_DendroPolearm,
+  Sim_DendroSword,
+  Sim_ElectroBow,
+  Sim_ElectroCatalyst,
+  Sim_ElectroClaymore,
+  Sim_ElectroPolearm,
+  Sim_ElectroSword,
+  Sim_GeoBow,
+  Sim_GeoCatalyst,
+  Sim_GeoClaymore,
+  Sim_GeoPolearm,
+  Sim_GeoSword,
+  Sim_HydroBow,
+  Sim_HydroCatalyst,
+  Sim_HydroClaymore,
+  Sim_HydroPolearm,
+  Sim_HydroSword,
+  Sim_PyroBow,
+  Sim_PyroCatalyst,
+  Sim_PyroClaymore,
+  Sim_PyroPolearm,
+  Sim_PyroSword,
   Skirk,
   Somnia,
   Sucrose,

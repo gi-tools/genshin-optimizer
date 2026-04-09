@@ -56,8 +56,9 @@ import UrakuMisugiri from './UrakuMisugiri'
 import WhitelakeFrostfeather from './WhitelakeFrostfeather'
 import WolfFang from './WolfFang'
 import XiphosMoonlight from './XiphosMoonlight'
-
+import { generateSim } from '../_generateSim'
 const sword: Record<WeaponSwordKey, WeaponSheet> = {
+  SimSword: generateSim('SimSword'),
   Absolution,
   AmenomaKageuchi,
   AquilaFavonia,

@@ -50,8 +50,9 @@ import TheStringless from './TheStringless'
 import TheViridescentHunt from './TheViridescentHunt'
 import ThunderingPulse from './ThunderingPulse'
 import WindblumeOde from './WindblumeOde'
-
+import { generateSim } from '../_generateSim'
 const bow: Record<WeaponBowKey, WeaponSheet> = {
+  SimBow: generateSim('SimBow'),
   AlleyHunter,
   AmosBow,
   AquaSimulacra,

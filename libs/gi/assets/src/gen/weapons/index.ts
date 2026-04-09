@@ -181,6 +181,11 @@ import SerpentSpine from './SerpentSpine'
 import SharpshootersOath from './SharpshootersOath'
 import SilverSword from './SilverSword'
 import SilvershowerHeartstrings from './SilvershowerHeartstrings'
+import SimBow from './SimBow'
+import SimCatalyst from './SimCatalyst'
+import SimClaymore from './SimClaymore'
+import SimPolearm from './SimPolearm'
+import SimSword from './SimSword'
 import SkyriderGreatsword from './SkyriderGreatsword'
 import SkyriderSword from './SkyriderSword'
 import SkywardAtlas from './SkywardAtlas'
@@ -430,6 +435,11 @@ const data = {
   SharpshootersOath,
   SilverSword,
   SilvershowerHeartstrings,
+  SimBow,
+  SimCatalyst,
+  SimClaymore,
+  SimPolearm,
+  SimSword,
   SkyriderGreatsword,
   SkyriderSword,
   SkywardAtlas,
