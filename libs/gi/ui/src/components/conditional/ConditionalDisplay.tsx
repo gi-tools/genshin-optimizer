@@ -49,7 +49,7 @@ export function ConditionalDisplay({
   }
   return (
     <CardThemed bgt={bgt} sx={sx}>
-      {!evalIfFunc(hideHeader, conditional) && (
+      {!evalIfFunc(hideHeader, conditional) && conditional.header && (
         <HeaderDisplay header={conditional.header} hideDesc={hideDesc} />
       )}
       <CardContent sx={{ p: 0, '&:last-child': { pb: 0 } }}>

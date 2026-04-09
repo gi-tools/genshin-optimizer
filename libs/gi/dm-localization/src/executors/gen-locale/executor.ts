@@ -13,7 +13,11 @@ import type {
   NonTravelerCharacterKey,
   WeaponKey,
 } from '@genshin-optimizer/gi/consts'
-import { allGenderKeys } from '@genshin-optimizer/gi/consts'
+import {
+  allGenderKeys,
+  simCharacterDisplayName,
+  simCharacterKeys,
+} from '@genshin-optimizer/gi/consts'
 import type { AvatarSkillDepotExcelConfigData } from '@genshin-optimizer/gi/dm'
 import {
   artifactIdMap,
@@ -544,8 +548,17 @@ export default async function runExecutor(_options: GenLocaleExecutorSchema) {
 
     // Add the Somnia and QuantumCatalyst
     languageData[lang as Language].charNames['Somnia'] = 'Somnia'
+    simCharacterKeys.forEach((key) => {
+      languageData[lang as Language].charNames[key] =
+        simCharacterDisplayName(key)
+    })
     languageData[lang as Language].weaponNames['QuantumCatalyst'] =
       'Quantum Cat-alyst'
+    languageData[lang as Language].weaponNames['SimBow'] = 'Sim (Bow)'
+    languageData[lang as Language].weaponNames['SimCatalyst'] = 'Sim (Catalyst)'
+    languageData[lang as Language].weaponNames['SimClaymore'] = 'Sim (Claymore)'
+    languageData[lang as Language].weaponNames['SimPolearm'] = 'Sim (Polearm)'
+    languageData[lang as Language].weaponNames['SimSword'] = 'Sim (Sword)'
   })
 
   // Hakushin localization
