@@ -43,8 +43,9 @@ import TheCatch from './TheCatch'
 import VortexVanquisher from './VortexVanquisher'
 import WavebreakersFin from './WavebreakersFin'
 import WhiteTassel from './WhiteTassel'
-
+import { generateSim } from '../_generateSim'
 const polearm: Record<WeaponPoleArmKey, WeaponSheet> = {
+  SimPolearm: generateSim('SimPolearm'),
   BalladOfTheFjords,
   BeginnersProtector,
   BlackcliffPole,

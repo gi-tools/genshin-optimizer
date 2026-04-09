@@ -6,6 +6,9 @@ import type {
   CharacterSkillKey,
   NonTravelerCharacterKey,
 } from '@genshin-optimizer/gi/consts'
+import {
+  simCharacterKeys,
+} from '@genshin-optimizer/gi/consts'
 import type {
   AvatarSkillDepotExcelConfigData,
   CharacterId,
@@ -23,6 +26,7 @@ import {
   TextMapEN,
 } from '@genshin-optimizer/gi/dm'
 import * as somniaData from './Somnia/skillParam.json'
+import * as generateSimData from './_generateSim/skillParam.json'
 
 type CharacterSkillParams = {
   auto: number[][]
@@ -236,6 +240,9 @@ export default function characterSkillParam() {
     }
   })
   characterSkillParamDump.Somnia = somniaData as CharacterSkillParams
+  simCharacterKeys.forEach((key) => {
+    characterSkillParamDump[key] = Object.assign({}, generateSimData) as CharacterSkillParams
+  })
 
   // Hakushin stats
   for (const key of hakushinChars) {

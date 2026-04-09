@@ -8,6 +8,9 @@ import type {
   TravelerKey,
   WeaponKey,
 } from '@genshin-optimizer/gi/consts'
+import {
+  simCharacterKeys,
+} from '@genshin-optimizer/gi/consts'
 import type {
   AvatarSkillDepotExcelConfigData,
   CharacterId,
@@ -259,7 +262,30 @@ const runExecutor: PromiseExecutor<GenAssetsDataExecutorSchema> = async (
 
   // Add in manually added assets that can't be datamined
   assetData.chars['Somnia'] = {} as CharacterIcon
+  simCharacterKeys.forEach((key) => {
+    assetData.chars[key] = {} as CharacterIcon
+  })
   assetData.weapons['QuantumCatalyst'] = {} as {
+    icon: string
+    awakenIcon: string
+  }
+  assetData.weapons['SimBow'] = {} as {
+    icon: string
+    awakenIcon: string
+  }
+  assetData.weapons['SimCatalyst'] = {} as {
+    icon: string
+    awakenIcon: string
+  }
+  assetData.weapons['SimClaymore'] = {} as {
+    icon: string
+    awakenIcon: string
+  }
+  assetData.weapons['SimPolearm'] = {} as {
+    icon: string
+    awakenIcon: string
+  }
+  assetData.weapons['SimSword'] = {} as {
     icon: string
     awakenIcon: string
   }

@@ -25,6 +25,7 @@ export function AdWrapper({
   bgt?: CardBackgroundColor
   Ad: FunctionComponent<AdProps>
 }) {
+  return null
   const [show, _, onHide] = useBoolState(true)
   const adblockEnabled = useContext(IsAdBlockedContext)
   const hostname = window.location.hostname

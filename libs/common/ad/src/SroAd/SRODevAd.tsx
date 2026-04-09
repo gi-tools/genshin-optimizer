@@ -39,6 +39,7 @@ export function SRODevAd({ children }: { children: ReactNode }) {
   )
 }
 export function getSRODevAd(dims: AdDims) {
+  return false
   if ((dims.height ?? 120) < 120) return false
   return true
 }

@@ -48,6 +48,13 @@ export type MoveKey = (typeof allMoveKeys)[number]
 
 export const maxConstellationCount = 6 as const
 
+export const characterBaseStatKeys = [
+  'hp',
+  'atk',
+  'def',
+] as const
+export type CharacterBaseStatKey = (typeof characterBaseStatKeys)[number]
+
 export const characterSpecializedStatKeys = [
   'hp_',
   'atk_',
@@ -87,6 +94,65 @@ export const allCharacterSkillKeys = [
   'constellation6',
 ] as const
 export type CharacterSkillKey = (typeof allCharacterSkillKeys)[number]
+
+export const simCharacterKeys = [
+  'Sim_AnemoSword',
+  'Sim_GeoSword',
+  'Sim_ElectroSword',
+  'Sim_HydroSword',
+  'Sim_PyroSword',
+  'Sim_CryoSword',
+  'Sim_DendroSword',
+  'Sim_AnemoClaymore',
+  'Sim_GeoClaymore',
+  'Sim_ElectroClaymore',
+  'Sim_HydroClaymore',
+  'Sim_PyroClaymore',
+  'Sim_CryoClaymore',
+  'Sim_DendroClaymore',
+  'Sim_AnemoPolearm',
+  'Sim_GeoPolearm',
+  'Sim_ElectroPolearm',
+  'Sim_HydroPolearm',
+  'Sim_PyroPolearm',
+  'Sim_CryoPolearm',
+  'Sim_DendroPolearm',
+  'Sim_AnemoBow',
+  'Sim_GeoBow',
+  'Sim_ElectroBow',
+  'Sim_HydroBow',
+  'Sim_PyroBow',
+  'Sim_CryoBow',
+  'Sim_DendroBow',
+  'Sim_AnemoCatalyst',
+  'Sim_GeoCatalyst',
+  'Sim_ElectroCatalyst',
+  'Sim_HydroCatalyst',
+  'Sim_PyroCatalyst',
+  'Sim_CryoCatalyst',
+  'Sim_DendroCatalyst',
+] as const
+export type SimCharacterKey = (typeof simCharacterKeys)[number]
+
+const simWeaponSuffixes = [
+  'Catalyst',
+  'Claymore',
+  'Polearm',
+  'Sword',
+  'Bow',
+] as const
+
+/** Display label for simulator characters, e.g. `Sim_AnemoBow` → `Sim (Anemo|Bow)`. */
+export function simCharacterDisplayName(key: string): string {
+  if (!key.startsWith('Sim_')) return key
+  const rest = key.slice('Sim_'.length)
+  for (const w of simWeaponSuffixes) {
+    if (rest.endsWith(w)) {
+      return `Sim (${rest.slice(0, -w.length)}|${w})`
+    }
+  }
+  return key
+}
 
 export const nonTravelerCharacterKeys = [
   'Aino',
@@ -184,6 +250,7 @@ export const nonTravelerCharacterKeys = [
   'Sigewinne',
   'Skirk',
   'Somnia',
+  ...simCharacterKeys,
   'Sucrose',
   'Tartaglia',
   'Thoma',

@@ -1,5 +1,5 @@
 import { layeredAssignment, nameToKey } from '@genshin-optimizer/common/util'
-import type { AscensionKey, CharacterKey } from '@genshin-optimizer/gi/consts'
+import { simCharacterKeys, type AscensionKey, type CharacterKey } from '@genshin-optimizer/gi/consts'
 import type {
   AscensionRecord,
   AvatarSkillDepotExcelConfigData,
@@ -18,6 +18,7 @@ import {
 } from '@genshin-optimizer/gi/dm'
 import type { UpgradeCost } from '.'
 import * as somniaData from './Somnia/data.json'
+import * as generateSimData from './_generateSim/data.json'
 
 export type CharacterMatDataGen = {
   ascension: Record<AscensionKey, UpgradeCost>
@@ -177,6 +178,9 @@ export default function characterMatData(): CharacterMatDatas {
   })
 
   data.Somnia = somniaData as CharacterMatDataGen
+  simCharacterKeys.forEach((key) => {
+    data[key] = Object.assign({}, generateSimData) as CharacterMatDataGen
+  })
 
   return data as CharacterMatDatas
 }

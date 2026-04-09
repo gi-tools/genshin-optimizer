@@ -5,13 +5,16 @@
   "private": true,
   "scripts": {
     "preinstall": "node tools/scripts/check-node.mjs",
+    "reset": "nx reset",
     "frontend": "nx serve frontend",
     "somnia": "nx serve somnia",
+    "sim-init": "node scripts/copy-sim-char-locales.mjs",
+    "build-gi": "npm run sim-init && nx run-many -t build --exclude zzz-frontend --exclude sr-frontend",
     "build-all": "nx run-many -t build",
     "mini-ci": "nx affected -t format && nx affected -t typecheck && nx affected -t lint && CI=true nx affected -t test",
     "reload-dm": "git submodule update --init",
     "update-dm": "git submodule update --remote",
-    "gen-file": "nx run-many -t gen-file",
+    "gen-file": "npm run sim-init && nx run-many -t gen-file",
     "test": "nx run-many -t test"
   },
   "devDependencies": {

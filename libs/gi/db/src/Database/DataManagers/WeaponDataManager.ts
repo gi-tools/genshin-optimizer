@@ -230,6 +230,11 @@ export class WeaponDataManager extends DataManager<
     // Shouldn't remove Somnia's signature
     const idtoRemoveArr = Array.from(idsToRemove).filter(
       (id) => this.get(id)?.key !== 'QuantumCatalyst'
+        && this.get(id)?.key !== 'SimBow'
+        && this.get(id)?.key !== 'SimCatalyst'
+        && this.get(id)?.key !== 'SimClaymore'
+        && this.get(id)?.key !== 'SimPolearm'
+        && this.get(id)?.key !== 'SimSword'
     )
     if (result.keepWepArtiNotInImport || result.ignoreDups)
       result.weapons.notInImport = idtoRemoveArr.length
