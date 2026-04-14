@@ -8,7 +8,7 @@ import {
   greaterEq,
   infoMut,
   input,
-  lunarDmg,
+  lunarDmgNode,
   percent,
   subscript,
   sum,
@@ -75,8 +75,11 @@ export function generateSim(key: SimCharacterKey) {
   const [ascensionStatValueNode, ascensionStat_partialCond] = generateSscensionStat(key)
 
   const [selfAtk_Value, selfAtk_partialCond] = generateBuffStat(key, 'atk_', 'self')
+  const [selfFlatAtk_Value, selfFlatAtk_partialCond] = generateBuffStat(key, 'atk', 'self')
   const [selfDef_Value, selfDef_partialCond] = generateBuffStat(key, 'def_', 'self')
+  const [selfFlatDef_Value, selfFlatDef_partialCond] = generateBuffStat(key, 'def', 'self')
   const [selfHp_Value, selfHp_partialCond] = generateBuffStat(key, 'hp_', 'self')
+  const [selfFlatHp_Value, selfFlatHp_partialCond] = generateBuffStat(key, 'hp', 'self')
   const [selfEm_Value, selfEm_partialCond] = generateBuffStat(key, 'eleMas', 'self')
   const [selfEnerRech_Value, selfEnerRech_partialCond] = generateBuffStat(key, 'enerRech_', 'self')
   const [selfHeal_Value, selfHeal_partialCond] = generateBuffStat(key, 'heal_', 'self')
@@ -118,8 +121,11 @@ export function generateSim(key: SimCharacterKey) {
   const [selfLunarcrystallize_critDMG_Value, selfLunarcrystallize_critDMG_partialCond] = generateBuffStat(key, 'lunarcrystallize_critDMG_', 'self')
 
   const [singleAtk_Value, singleAtk_partialCond, singleAtk_valueRaw] = generateBuffStat(key, 'atk_', 'single')
+  const [singleFlatAtk_Value, singleFlatAtk_partialCond, singleFlatAtk_valueRaw] = generateBuffStat(key, 'atk', 'single')
   const [singleDef_Value, singleDef_partialCond, singleDef_valueRaw] = generateBuffStat(key, 'def_', 'single')
+  const [singleFlatDef_Value, singleFlatDef_partialCond, singleFlatDef_valueRaw] = generateBuffStat(key, 'def', 'single')
   const [singleHp_Value, singleHp_partialCond, singleHp_valueRaw] = generateBuffStat(key, 'hp_', 'single')
+  const [singleFlatHp_Value, singleFlatHp_partialCond, singleFlatHp_valueRaw] = generateBuffStat(key, 'hp', 'single')
   const [singleEm_Value, singleEm_partialCond, singleEm_valueRaw] = generateBuffStat(key, 'eleMas', 'single')
   const [singleEnerRech_Value, singleEnerRech_partialCond, singleEnerRech_valueRaw] = generateBuffStat(key, 'enerRech_', 'single')
   const [singleHeal_Value, singleHeal_partialCond, singleHeal_valueRaw] = generateBuffStat(key, 'heal_', 'single')
@@ -161,8 +167,11 @@ export function generateSim(key: SimCharacterKey) {
   const [singleLunarcrystallize_critDMG_Value, singleLunarcrystallize_critDMG_partialCond, singleLunarcrystallize_critDMG_valueRaw] = generateBuffStat(key, 'lunarcrystallize_critDMG_', 'single')
 
   const [buffAtk_Value, buffAtk_partialCond] = generateBuffStat(key, 'atk_', 'team')
+  const [buffFlatAtk_Value, buffFlatAtk_partialCond] = generateBuffStat(key, 'atk', 'team')
   const [buffDef_Value, buffDef_partialCond] = generateBuffStat(key, 'def_', 'team')
+  const [buffFlatDef_Value, buffFlatDef_partialCond] = generateBuffStat(key, 'def', 'team')
   const [buffHp_Value, buffHp_partialCond] = generateBuffStat(key, 'hp_', 'team')
+  const [buffFlatHp_Value, buffFlatHp_partialCond] = generateBuffStat(key, 'hp', 'team')
   const [buffEm_Value, buffEm_partialCond] = generateBuffStat(key, 'eleMas', 'team')
   const [buffEnerRech_Value, buffEnerRech_partialCond] = generateBuffStat(key, 'enerRech_', 'team')
   const [buffHeal_Value, buffHeal_partialCond] = generateBuffStat(key, 'heal_', 'team')
@@ -233,62 +242,62 @@ export function generateSim(key: SimCharacterKey) {
       skillDefDmg: dmgNode('def', dm.skill.dmgScale, 'skill'),
       skillHpDmg: dmgNode('hp', dm.skill.dmgScale.map(x => x / 100), 'skill'),
       skillEmDmg: dmgNode('eleMas', dm.skill.dmgScale, 'skill'),
-      skillAtkDmgLunarbloom: lunarDmg(
+      skillAtkDmgLunarbloom: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'atk',
         'lunarbloom'
       ),
-      skillAtkDmgLunarcharged: lunarDmg(
+      skillAtkDmgLunarcharged: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'atk',
         'lunarcharged'
       ),
-      skillAtkDmgLunarcrystallize: lunarDmg(
+      skillAtkDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'atk',
         'lunarcrystallize'
       ),
-      skillDefDmgLunarbloom: lunarDmg(
+      skillDefDmgLunarbloom: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'def',
         'lunarbloom'
       ),
-      skillDefDmgLunarcharged: lunarDmg(
+      skillDefDmgLunarcharged: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'def',
         'lunarcharged'
       ),
-      skillDefDmgLunarcrystallize: lunarDmg(
+      skillDefDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'def',
         'lunarcrystallize'
       ),
-      skillHpDmgLunarbloom: lunarDmg(
+      skillHpDmgLunarbloom: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale.map(x => x / 100), { unit: '%' }),
         'hp',
         'lunarbloom'
       ),
-      skillHpDmgLunarcharged: lunarDmg(
+      skillHpDmgLunarcharged: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale.map(x => x / 100), { unit: '%' }),
         'hp',
         'lunarcharged'
       ),
-      skillHpDmgLunarcrystallize: lunarDmg(
+      skillHpDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale.map(x => x / 100), { unit: '%' }),
         'hp',
         'lunarcrystallize'
       ),
-      skillEmDmgLunarbloom: lunarDmg(
+      skillEmDmgLunarbloom: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'eleMas',
         'lunarbloom'
       ),
-      skillEmDmgLunarcharged: lunarDmg(
+      skillEmDmgLunarcharged: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'eleMas',
         'lunarcharged'
       ),
-      skillEmDmgLunarcrystallize: lunarDmg(
+      skillEmDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.skillIndex, dm.skill.dmgReactionScale, { unit: '%' }),
         'eleMas',
         'lunarcrystallize'
@@ -299,62 +308,62 @@ export function generateSim(key: SimCharacterKey) {
       skillDefDmg: dmgNode('def', dm.burst.dmgScale, 'burst'),
       skillHpDmg: dmgNode('hp', dm.burst.dmgScale.map(x => x / 100), 'burst'),
       skillEmDmg: dmgNode('eleMas', dm.burst.dmgScale, 'burst'),
-      skillAtkDmgLunarbloom: lunarDmg(
+      skillAtkDmgLunarbloom: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'atk',
         'lunarbloom'
       ),
-      skillAtkDmgLunarcharged: lunarDmg(
+      skillAtkDmgLunarcharged: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'atk',
         'lunarcharged'
       ),
-      skillAtkDmgLunarcrystallize: lunarDmg(
+      skillAtkDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'atk',
         'lunarcrystallize'
       ),
-      skillDefDmgLunarbloom: lunarDmg(
+      skillDefDmgLunarbloom: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'def',
         'lunarbloom'
       ),
-      skillDefDmgLunarcharged: lunarDmg(
+      skillDefDmgLunarcharged: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'def',
         'lunarcharged'
       ),
-      skillDefDmgLunarcrystallize: lunarDmg(
+      skillDefDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'def',
         'lunarcrystallize'
       ),
-      skillHpDmgLunarbloom: lunarDmg(
+      skillHpDmgLunarbloom: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale.map(x => x / 100), { unit: '%' }),
         'hp',
         'lunarbloom'
       ),
-      skillHpDmgLunarcharged: lunarDmg(
+      skillHpDmgLunarcharged: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale.map(x => x / 100), { unit: '%' }),
         'hp',
         'lunarcharged'
       ),
-      skillHpDmgLunarcrystallize: lunarDmg(
+      skillHpDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale.map(x => x / 100), { unit: '%' }),
         'hp',
         'lunarcrystallize'
       ),
-      skillEmDmgLunarbloom: lunarDmg(
+      skillEmDmgLunarbloom: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'eleMas',
         'lunarbloom'
       ),
-      skillEmDmgLunarcharged: lunarDmg(
+      skillEmDmgLunarcharged: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'eleMas',
         'lunarcharged'
       ),
-      skillEmDmgLunarcrystallize: lunarDmg(
+      skillEmDmgLunarcrystallize: lunarDmgNode(
         subscript(input.total.burstIndex, dm.burst.dmgReactionScale, { unit: '%' }),
         'eleMas',
         'lunarcrystallize'
@@ -370,8 +379,11 @@ export function generateSim(key: SimCharacterKey) {
       burstBoost: burstC3,
       skillBoost: skillC5,
       hp_: sum(equal(ascensionStatValueNode, 'hp_', infoMut(percent(ascensionStatValues['hp_']), { path: 'hp_' })), selfHp_Value),
+      hp: selfFlatHp_Value,
       atk_: sum(equal(ascensionStatValueNode, 'atk_', infoMut(percent(ascensionStatValues['atk_']), { path: 'atk_' })), selfAtk_Value),
+      atk: selfFlatAtk_Value,
       def_: sum(equal(ascensionStatValueNode, 'def_', infoMut(percent(ascensionStatValues['def_']), { path: 'def_' })), selfDef_Value),
+      def: selfFlatDef_Value,
       eleMas: sum(equal(ascensionStatValueNode, 'eleMas', infoMut(constant(ascensionStatValues['eleMas']), { path: 'eleMas' })), selfEm_Value),
       enerRech_: sum(equal(ascensionStatValueNode, 'enerRech_', infoMut(percent(ascensionStatValues['enerRech_']), { path: 'enerRech_' })), selfEnerRech_Value),
       heal_: sum(equal(ascensionStatValueNode, 'heal_', infoMut(percent(ascensionStatValues['heal_']), { path: 'heal_' })), selfHeal_Value),
@@ -424,8 +436,11 @@ export function generateSim(key: SimCharacterKey) {
     teamBuff: {
       premod: {
         atk_: sum(buffAtk_Value, singleAtk_Value),
+        atk: sum(buffFlatAtk_Value, singleFlatAtk_Value),
         def_: sum(buffDef_Value, singleDef_Value),
+        def: sum(buffFlatDef_Value, singleFlatDef_Value),
         hp_: sum(buffHp_Value, singleHp_Value),
+        hp: sum(buffFlatHp_Value, singleFlatHp_Value),
         eleMas: sum(buffEm_Value, singleEm_Value),
         enerRech_: sum(buffEnerRech_Value, singleEnerRech_Value),
         heal_: sum(buffHeal_Value, singleHeal_Value),
@@ -748,8 +763,11 @@ export function generateSim(key: SimCharacterKey) {
 
     passive1: ct.talentTem('passive1', [
       ct.condTem('passive1', selfAtk_partialCond),
+      ct.condTem('passive1', selfFlatAtk_partialCond),
       ct.condTem('passive1', selfDef_partialCond),
+      ct.condTem('passive1', selfFlatDef_partialCond),
       ct.condTem('passive1', selfHp_partialCond),
+      ct.condTem('passive1', selfFlatHp_partialCond),
       ct.condTem('passive1', selfEm_partialCond),
       ct.condTem('passive1', selfEnerRech_partialCond),
       ct.condTem('passive1', selfHeal_partialCond),
@@ -792,8 +810,11 @@ export function generateSim(key: SimCharacterKey) {
       ct.fieldsTem('passive1', {
         fields: [
           { node: selfAtk_Value, },
+          { node: selfFlatAtk_Value, },
           { node: selfDef_Value, },
+          { node: selfFlatDef_Value, },
           { node: selfHp_Value, },
+          { node: selfFlatHp_Value, },
           { node: selfEm_Value, },
           { node: selfEnerRech_Value, },
           { node: selfHeal_Value, },
@@ -838,8 +859,11 @@ export function generateSim(key: SimCharacterKey) {
     ]),
     passive2: ct.talentTem('passive2', [
       ct.condTem('passive2', singleAtk_partialCond),
+      ct.condTem('passive2', singleFlatAtk_partialCond),
       ct.condTem('passive2', singleDef_partialCond),
+      ct.condTem('passive2', singleFlatDef_partialCond),
       ct.condTem('passive2', singleHp_partialCond),
+      ct.condTem('passive2', singleFlatHp_partialCond),
       ct.condTem('passive2', singleEm_partialCond),
       ct.condTem('passive2', singleEnerRech_partialCond),
       ct.condTem('passive2', singleHeal_partialCond),
@@ -882,8 +906,11 @@ export function generateSim(key: SimCharacterKey) {
       ct.fieldsTem('passive2', {
         fields: [
           { node: singleAtk_valueRaw, },
+          { node: singleFlatAtk_valueRaw, },
           { node: singleDef_valueRaw, },
+          { node: singleFlatDef_valueRaw, },
           { node: singleHp_valueRaw, },
+          { node: singleFlatHp_valueRaw, },
           { node: singleEm_valueRaw, },
           { node: singleEnerRech_valueRaw, },
           { node: singleHeal_valueRaw, },
@@ -944,8 +971,11 @@ export function generateSim(key: SimCharacterKey) {
     ]),
     constellation1: ct.talentTem('constellation1', [
       ct.condTem('constellation1', buffAtk_partialCond),
+      ct.condTem('constellation1', buffFlatAtk_partialCond),
       ct.condTem('constellation1', buffDef_partialCond),
+      ct.condTem('constellation1', buffFlatDef_partialCond),
       ct.condTem('constellation1', buffHp_partialCond),
+      ct.condTem('constellation1', buffFlatHp_partialCond),
       ct.condTem('constellation1', buffEm_partialCond),
       ct.condTem('constellation1', buffEnerRech_partialCond),
       ct.condTem('constellation1', buffHeal_partialCond),
@@ -989,8 +1019,11 @@ export function generateSim(key: SimCharacterKey) {
       ct.fieldsTem('constellation1', {
         fields: [
           { node: buffAtk_Value, },
+          { node: buffFlatAtk_Value, },
           { node: buffDef_Value, },
+          { node: buffFlatDef_Value, },
           { node: buffHp_Value, },
+          { node: buffFlatHp_Value, },
           { node: buffEm_Value, },
           { node: buffEnerRech_Value, },
           { node: buffHeal_Value, },
