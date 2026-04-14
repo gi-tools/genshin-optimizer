@@ -2,6 +2,7 @@ import type {
   CharacterKey,
   CharacterSheetKey,
   GenderKey,
+  SimCharacterKey,
   TravelerKey,
 } from '@genshin-optimizer/gi/consts'
 import { allTravelerKeys } from '@genshin-optimizer/gi/consts'
@@ -141,7 +142,46 @@ import YunJin from './YunJin'
 import Zhongli from './Zhongli'
 import Zibai from './Zibai'
 
+const simCharacters: Record<SimCharacterKey, CharacterSheet> = {
+  Sim_AnemoSword: generateSim('Sim_AnemoSword'),
+  Sim_GeoSword: generateSim('Sim_GeoSword'),
+  Sim_ElectroSword: generateSim('Sim_ElectroSword'),
+  Sim_HydroSword: generateSim('Sim_HydroSword'),
+  Sim_PyroSword: generateSim('Sim_PyroSword'),
+  Sim_CryoSword: generateSim('Sim_CryoSword'),
+  Sim_DendroSword: generateSim('Sim_DendroSword'),
+  Sim_AnemoClaymore: generateSim('Sim_AnemoClaymore'),
+  Sim_GeoClaymore: generateSim('Sim_GeoClaymore'),
+  Sim_ElectroClaymore: generateSim('Sim_ElectroClaymore'),
+  Sim_HydroClaymore: generateSim('Sim_HydroClaymore'),
+  Sim_PyroClaymore: generateSim('Sim_PyroClaymore'),
+  Sim_CryoClaymore: generateSim('Sim_CryoClaymore'),
+  Sim_DendroClaymore: generateSim('Sim_DendroClaymore'),
+  Sim_AnemoPolearm: generateSim('Sim_AnemoPolearm'),
+  Sim_GeoPolearm: generateSim('Sim_GeoPolearm'),
+  Sim_ElectroPolearm: generateSim('Sim_ElectroPolearm'),
+  Sim_HydroPolearm: generateSim('Sim_HydroPolearm'),
+  Sim_PyroPolearm: generateSim('Sim_PyroPolearm'),
+  Sim_CryoPolearm: generateSim('Sim_CryoPolearm'),
+  Sim_DendroPolearm: generateSim('Sim_DendroPolearm'),
+  Sim_AnemoBow: generateSim('Sim_AnemoBow'),
+  Sim_GeoBow: generateSim('Sim_GeoBow'),
+  Sim_ElectroBow: generateSim('Sim_ElectroBow'),
+  Sim_HydroBow: generateSim('Sim_HydroBow'),
+  Sim_PyroBow: generateSim('Sim_PyroBow'),
+  Sim_CryoBow: generateSim('Sim_CryoBow'),
+  Sim_DendroBow: generateSim('Sim_DendroBow'),
+  Sim_AnemoCatalyst: generateSim('Sim_AnemoCatalyst'),
+  Sim_GeoCatalyst: generateSim('Sim_GeoCatalyst'),
+  Sim_ElectroCatalyst: generateSim('Sim_ElectroCatalyst'),
+  Sim_HydroCatalyst: generateSim('Sim_HydroCatalyst'),
+  Sim_PyroCatalyst: generateSim('Sim_PyroCatalyst'),
+  Sim_CryoCatalyst: generateSim('Sim_CryoCatalyst'),
+  Sim_DendroCatalyst: generateSim('Sim_DendroCatalyst'),
+} as const
+
 const characters: Record<CharacterSheetKey, CharacterSheet> = {
+  ...simCharacters,
   Aino,
   Albedo,
   Alhaitham,
@@ -277,8 +317,6 @@ const characters: Record<CharacterSheetKey, CharacterSheet> = {
   Zibai,
 } as const
 export function getCharSheet(charKey: CharacterKey, gender: GenderKey) {
-  if (charKey.startsWith('Sim_'))
-    return generateSim(charKey);
   return characters[charKeyToCharSheetKey(charKey, gender)]
 }
 

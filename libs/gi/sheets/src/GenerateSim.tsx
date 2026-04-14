@@ -217,6 +217,24 @@ export function generateBuffStat(
   } else if (stat === 'dmgMultiplier_') {
     from = 100
     to = 300
+  } else if (stat === 'atk' || stat === 'def') {
+    from = 100
+    to = 1000
+    step = 10
+    fnCal = (v: number) => constant(v)
+  } else if (stat === 'hp') {
+    from = 2000
+    to = 10000
+    step = 100
+    fnCal = (v: number) => constant(v)
+  }
+
+  const fnFormatValue = (v: number): string => {
+    if (stat === 'eleMas' || stat === 'atk' || stat === 'def' || stat === 'hp') {
+      return `${v}`
+    } else {
+      return `${v}%`
+    }
   }
 
   const [buffStat_array, buffStat_condPath, buffStat_condNode, buffStat_valueNode] = generateRange(key, `${prefix}_buff_${stat}`, from, to, step, fnCal)
@@ -230,7 +248,7 @@ export function generateBuffStat(
     value: buffStat_condNode,
     name: `${namePrefix} ${getLabelStat(stat)}`,
     states: objKeyMap(buffStat_array, (v) => ({
-      name: stat == 'eleMas' ? `${v}` : `${v}%`,
+      name: fnFormatValue(v),
       fields: [],
     })),
   }
