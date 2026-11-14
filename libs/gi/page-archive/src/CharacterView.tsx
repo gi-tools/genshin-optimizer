@@ -133,7 +133,7 @@ export function CharacterView({
             >
               {/* auto, skill, burst */}
               {skillBurstList.map(([tKey, tText]) => (
-                <Grid key={tKey}>
+                <Grid key={tKey} size={talentSpacing}>
                   <SkillDisplayCard
                     characterKey={characterKey}
                     talentKey={tKey}
@@ -142,7 +142,7 @@ export function CharacterView({
                 </Grid>
               ))}
               {!!characterSheet.getTalentOfKey('sprint') && (
-                <Grid>
+                <Grid size={talentSpacing}>
                   <SkillDisplayCard
                     characterKey={characterKey}
                     talentKey="sprint"
@@ -151,7 +151,7 @@ export function CharacterView({
                 </Grid>
               )}
               {!!characterSheet.getTalentOfKey('passive') && (
-                <Grid>
+                <Grid size={talentSpacing}>
                   <SkillDisplayCard
                     characterKey={characterKey}
                     talentKey="passive"
@@ -164,7 +164,11 @@ export function CharacterView({
                 const enabled = ascension >= asc
                 if (!characterSheet.getTalentOfKey(tKey)) return null
                 return (
-                  <Grid key={tKey} style={{ opacity: enabled ? 1 : 0.5 }}>
+                  <Grid
+                    key={tKey}
+                    style={{ opacity: enabled ? 1 : 0.5 }}
+                    size={talentSpacing}
+                  >
                     <SkillDisplayCard
                       characterKey={characterKey}
                       talentKey={tKey}
@@ -192,6 +196,7 @@ export function CharacterView({
                   <Grid
                     key={i}
                     sx={{ opacity: constellation >= i + 1 ? 1 : 0.5 }}
+                    size={talentSpacing}
                   >
                     {c}
                   </Grid>
