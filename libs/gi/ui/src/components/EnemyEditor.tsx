@@ -31,7 +31,7 @@ interface ExpandMoreProps extends IconButtonProps {
 }
 const ExpandButton = styled((props: ExpandMoreProps) => {
   const { expand, ...other } = props
-  return <IconButton {...other} />
+  return <IconButton component="span" {...other} />
 })(({ theme, expand }) => ({
   transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
   marginLeft: 'auto',
