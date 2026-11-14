@@ -3,6 +3,7 @@ import type { CardBackgroundColor } from '@genshin-optimizer/common/ui'
 import { useRefSize } from '@genshin-optimizer/common/ui'
 import { Box } from '@mui/material'
 import type { FunctionComponent } from 'react'
+import { ADS_ENABLED } from '../consts'
 import type { AdProps } from '../type'
 import { AdWrapper } from './AdWrapper'
 
@@ -20,7 +21,7 @@ export function AdResponsive({
   const { width, height, ref } = useRefSize()
   const [show, _, onHide] = useBoolState(true)
 
-  if (!show) return null
+  if (!ADS_ENABLED || !show) return null
   return (
     <Box ref={ref} sx={{ height: '100%', width: '100%', maxHeight }}>
       {width && (

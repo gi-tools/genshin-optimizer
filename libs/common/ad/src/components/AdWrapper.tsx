@@ -3,6 +3,7 @@ import type { CardBackgroundColor } from '@genshin-optimizer/common/ui'
 import type { BoxProps } from '@mui/material'
 import type { FunctionComponent, MouseEventHandler } from 'react'
 import { useContext } from 'react'
+import { ADS_ENABLED } from '../consts'
 import { IsAdBlockedContext } from '../context'
 import type { AdProps } from '../type'
 import { AdButtons } from './AdButtons'
@@ -29,6 +30,7 @@ export function AdWrapper({
   const adblockEnabled = useContext(IsAdBlockedContext)
   const hostname = window.location.hostname
 
+  if (!ADS_ENABLED) return null
   if (hostname === 'frzyc.github.io' && !adblockEnabled)
     return <AdSenseUnit dataAdSlot={dataAdSlot} sx={sx} fullWidth={fullWidth} />
   if (!show) return null

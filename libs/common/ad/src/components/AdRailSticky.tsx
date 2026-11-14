@@ -1,6 +1,6 @@
 import { Box } from '@mui/material'
 import type { FunctionComponent } from 'react'
-import { AD_RAIL_HEIGHT, AD_RAIL_MAXWIDTH } from '../consts'
+import { AD_RAIL_HEIGHT, AD_RAIL_MAXWIDTH, ADS_ENABLED } from '../consts'
 import type { AdProps } from '../type'
 import { AdWrapper } from './AdWrapper'
 
@@ -16,6 +16,7 @@ export function AdRailSticky({
   Ad: FunctionComponent<AdProps>
   isRightRail?: boolean
 }) {
+  if (!ADS_ENABLED) return null
   if (adWidth < MIN_RAIL_WIDTH) return null
   if (isRightRail && adWidth < MIN_RAIL_WIDTH * 2) return null
   const hasBothRails = adWidth >= MIN_RAIL_WIDTH * 2
