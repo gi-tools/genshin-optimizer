@@ -15,6 +15,7 @@ import {
   weaponPromoteExcelConfigData,
 } from '@genshin-optimizer/gi/dm'
 import * as quantumCatalystData from './QuantumCatalyst/data.json'
+import * as simWeaponData from './_generateSim/weapon.json'
 
 type WeaponProp = {
   type?: StatKey
@@ -106,6 +107,11 @@ export default function weaponData() {
     })
   ) as Record<WeaponKey, WeaponDataGen>
   data.QuantumCatalyst = quantumCatalystData as WeaponDataGen
+  data.SimCatalyst = Object.assign({}, simWeaponData, { weaponType: 'catalyst' }) as WeaponDataGen
+  data.SimClaymore = Object.assign({}, simWeaponData, { weaponType: 'claymore' }) as WeaponDataGen
+  data.SimPolearm = Object.assign({}, simWeaponData, { weaponType: 'polearm' }) as WeaponDataGen
+  data.SimSword = Object.assign({}, simWeaponData, { weaponType: 'sword' }) as WeaponDataGen
+  data.SimBow = Object.assign({}, simWeaponData, { weaponType: 'bow' }) as WeaponDataGen
 
   // Hakushin stats
   for (const key of hakushinWeapons) {

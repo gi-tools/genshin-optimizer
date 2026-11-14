@@ -1,0 +1,30 @@
+{
+  "weaponType": "sim",
+  "rarity": 5,
+  "mainStat": {
+    "type": "atk",
+    "base": 0,
+    "curve": "GROW_CURVE_ATTACK_301"
+  },
+  "subStat": {
+    "type": "critRate_",
+    "base": 0,
+    "curve": "GROW_CURVE_CRITICAL_301"
+  },
+  "lvlCurves": [
+    {
+      "key": "atk",
+      "base": 0,
+      "curve": "GROW_CURVE_ATTACK_301"
+    },
+    {
+      "key": "critRate_",
+      "base": 0,
+      "curve": "GROW_CURVE_CRITICAL_301"
+    }
+  ],
+  "refinementBonus": {},
+  "ascensionBonus": {
+    "atk": [0, 0, 0, 0, 0, 0, 0]
+  }
+}

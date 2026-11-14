@@ -50,6 +50,7 @@ function GODevAd({ children }: { children: ReactNode }) {
   )
 }
 export function getGODevAd(dims: AdDims) {
+  return
   if ((dims.height ?? 120) >= 120) return GODevAd
   return
 }

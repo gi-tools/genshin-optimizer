@@ -1,0 +1,9 @@
+- DATA
+libs/gi/sheets/src/Characters/_generateSim/index.tsx
+libs/gi/stats/src/executors/gen-stats/src/_generateSim/data.json
+libs/gi/stats/src/executors/gen-stats/src/_generateSim/skillParam.json
+
+- Language
+libs/gi/dm-localization/src/executors/gen-locale/executor.ts
+libs/gi/dm-localization/assets/locales/en/char_SimTester_gen.json
+libs/gi/localization/assets/locales/en/char_SimTester.json

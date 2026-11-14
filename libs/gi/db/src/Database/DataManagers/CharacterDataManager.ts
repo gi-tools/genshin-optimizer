@@ -13,6 +13,7 @@ import {
   defaultCharacterAscension,
   defaultCharacterLevel,
   defaultTalentLevel,
+  simCharacterKeys,
 } from '@genshin-optimizer/gi/consts'
 import type { ICharacter, IGOOD } from '@genshin-optimizer/gi/good'
 import { parseCharacter } from '@genshin-optimizer/gi/good'
@@ -212,6 +213,7 @@ export class CharacterDataManager extends DataManager<
 
       // Somnia shouldn't be removed on import.
       idsToRemove.delete('Somnia')
+      simCharacterKeys.forEach((k) => idsToRemove.delete(k))
 
       const idtoRemoveArr = Array.from(idsToRemove)
       if (result.keepCharNotInImport || result.ignoreDups)

@@ -15,6 +15,7 @@ export function AdBanner({
   width: number
   Ad: FunctionComponent<AdProps>
 }) {
+  return null
   if (!width) return null
 
   return (

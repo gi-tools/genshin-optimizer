@@ -39,6 +39,7 @@ function ZOBannerAd({ children }: { children: ReactNode }) {
   )
 }
 export function getZOBannerAd(dims: AdDims) {
+  return
   if (isZOURL()) return
   if ((dims.height ?? 120) <= 120) return ZOBannerAd
   return

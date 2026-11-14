@@ -4,6 +4,11 @@ import { weaponHasRefinement } from '@genshin-optimizer/gi/stats'
 
 function sheet(weaponKey: WeaponKey) {
   return weaponKey === 'QuantumCatalyst'
+    || weaponKey === 'SimCatalyst'
+    || weaponKey === 'SimClaymore'
+    || weaponKey === 'SimPolearm'
+    || weaponKey === 'SimSword'
+    || weaponKey === 'SimBow'
     ? `weapon_${weaponKey}`
     : `weapon_${weaponKey}_gen`
 }

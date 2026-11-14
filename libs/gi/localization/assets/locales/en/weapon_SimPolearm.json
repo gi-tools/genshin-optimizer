@@ -1,0 +1,10 @@
+{
+  "name": "Sim (Polearm)",
+  "description": "Simulater weapon",
+  "passiveName": "Unknown Passive",
+  "passiveDescription": {
+    "0": {
+      "0": "Unknown Passive"
+    }
+  }
+}
