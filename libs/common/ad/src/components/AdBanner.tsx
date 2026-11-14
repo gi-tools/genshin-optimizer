@@ -1,5 +1,6 @@
 import { Box } from '@mui/material'
 import type { FunctionComponent } from 'react'
+import { ADS_ENABLED } from '../consts'
 import type { AdProps } from '../type'
 import { AdWrapper } from './AdWrapper'
 
@@ -15,7 +16,7 @@ export function AdBanner({
   width: number
   Ad: FunctionComponent<AdProps>
 }) {
-  if (!width) return null
+  if (!ADS_ENABLED || !width) return null
 
   return (
     <Box

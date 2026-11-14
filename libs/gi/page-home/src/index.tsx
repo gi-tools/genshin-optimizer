@@ -1,4 +1,5 @@
 import {
+  ADS_ENABLED,
   AdResponsive,
   GO_LOOTBAR_LINK,
   go_lootbar_banner,
@@ -112,6 +113,7 @@ function IntroCard() {
   )
 }
 function LootbarCard() {
+  if (!ADS_ENABLED) return null
   return (
     <CardThemed>
       <CardActionArea
