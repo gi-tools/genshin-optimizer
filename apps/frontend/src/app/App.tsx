@@ -186,7 +186,7 @@ function Content() {
         />
         {/* Content */}
         <Container
-          maxWidth="xl"
+          maxWidth={false}
           sx={{ px: { xs: 0.5, sm: 1 }, flexGrow: 1, mx: 0 }}
         >
           <Suspense

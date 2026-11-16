@@ -157,12 +157,12 @@ export default function CharacterTalentPane() {
         >
           {/* auto, skill, burst */}
           {skillBurstList.map(([tKey, tText]) => (
-            <Grid key={tKey}>
+            <Grid key={tKey} size={talentSpacing}>
               <SkillDisplayCard talentKey={tKey} subtitle={tText} />
             </Grid>
           ))}
           {!!characterSheet.getTalentOfKey('sprint') && (
-            <Grid>
+            <Grid size={talentSpacing}>
               <SkillDisplayCard
                 talentKey="sprint"
                 subtitle={t('talents.altSprint')}
@@ -170,7 +170,7 @@ export default function CharacterTalentPane() {
             </Grid>
           )}
           {!!characterSheet.getTalentOfKey('passive') && (
-            <Grid>
+            <Grid size={talentSpacing}>
               <SkillDisplayCard talentKey="passive" subtitle="Passive" />
             </Grid>
           )}
@@ -179,7 +179,11 @@ export default function CharacterTalentPane() {
             const enabled = ascension >= asc
             if (!characterSheet.getTalentOfKey(tKey)) return null
             return (
-              <Grid key={tKey} style={{ opacity: enabled ? 1 : 0.5 }}>
+              <Grid
+                key={tKey}
+                style={{ opacity: enabled ? 1 : 0.5 }}
+                size={talentSpacing}
+              >
                 <SkillDisplayCard talentKey={tKey} subtitle={tText} />
               </Grid>
             )
@@ -200,7 +204,11 @@ export default function CharacterTalentPane() {
               <ConstellationDropdown />
             </Grid>
             {constellationCards.map((c, i) => (
-              <Grid key={i} sx={{ opacity: constellation >= i + 1 ? 1 : 0.5 }}>
+              <Grid
+                key={i}
+                sx={{ opacity: constellation >= i + 1 ? 1 : 0.5 }}
+                size={talentSpacing}
+              >
                 {c}
               </Grid>
             ))}
